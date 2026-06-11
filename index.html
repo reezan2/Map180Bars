@@ -1,0 +1,329 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+  <title>Nantes en 180 Bars - Carte</title>
+  <link rel="stylesheet" href="css/tailwind.css">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <style>
+    /* 72px = logo h-12 (48px) + py-3 (2 × 12px) du header */
+    :root { --header-h: 72px; }
+    html, body {
+      margin: 0 !important;
+      padding: 0 !important;
+      height: 100% !important;
+      overflow: hidden;
+    }
+    #map {
+      position: absolute;
+      top: var(--header-h);
+      left: 0;
+      width: 100%;
+      height: calc(100vh - var(--header-h));
+      /* dvh : exclut la barre d'URL mobile (fallback 100vh ci-dessus) */
+      height: calc(100dvh - var(--header-h));
+      z-index: 0;
+    }
+    header { z-index: 2000; }
+    #bar-modal, #donation-modal { z-index: 9999; }
+        #donation-modal { display: none !important; }
+#donation-modal:not(.hidden) { display: flex !important; }
+    .leaflet-top, .leaflet-bottom, .leaflet-control-container { z-index: 1000 !important; }
+    .custom-marker { filter: drop-shadow(0 4px 6px rgb(0 0 0 / 0.1)); }
+    .modal { animation: fadeIn 0.2s ease-out; }
+    @keyframes fadeIn { from { opacity: 0; transform: scale(0.95); } to { opacity: 1; transform: scale(1); } }
+    .leaflet-control-attribution {
+      background: #10b981 !important;
+      color: white !important;
+      font-size: 11px;
+    }
+    .leaflet-control-attribution a {
+      color: white !important;
+      text-decoration: underline;
+    }
+    .leaflet-top { top: var(--header-h) !important; }
+.modal-scroll { overflow-y: scroll; }
+.modal-scroll::-webkit-scrollbar { width: 4px; }
+.modal-scroll::-webkit-scrollbar-track { background: transparent; }
+.modal-scroll::-webkit-scrollbar-thumb { background: rgba(0,0,0,0.2); border-radius: 99px; }
+.modal-scroll { scrollbar-width: thin; scrollbar-color: rgba(0,0,0,0.2) transparent; }
+    /* FILTER PANEL */
+#filter-panel {
+  position: fixed; top: var(--header-h); left: -310px;
+  width: 290px;
+  height: calc(100vh - var(--header-h));
+  height: calc(100dvh - var(--header-h));
+  background: #fef8f5; z-index: 3000;
+  transition: left 0.3s ease;
+  overflow-y: scroll;
+  -webkit-overflow-scrolling: touch;
+  overscroll-behavior: contain;
+  box-shadow: 4px 0 20px rgba(0,0,0,0.12);
+}
+#filter-panel.open { left: 0; }
+#filter-overlay { position: fixed; top: var(--header-h); left: 0; right: 0; bottom: 0; z-index: 2999; display: none; }
+#filter-overlay.open { display: block; }
+.filter-section { padding: 16px 20px; border-bottom: 1px solid rgba(0,0,0,0.08); }
+.filter-section-title {
+  font-size: 12px; font-weight: 600; color: #6b7280;
+  letter-spacing: 0.08em; text-transform: uppercase; margin-bottom: 12px;
+}
+.filter-type-item {
+  display: block; padding: 5px 0; font-size: 15px;
+  color: #9ca3af; cursor: pointer; transition: color 0.15s; user-select: none;
+}
+.filter-type-item.active { color: #111827; font-weight: 600; }
+.filter-type-item:hover { color: #374151; }
+.filter-toggle { position: relative; display: inline-flex; align-items: center; cursor: pointer; }
+.filter-toggle input { opacity: 0; width: 0; height: 0; position: absolute; }
+.filter-toggle-track { width: 44px; height: 24px; background: #d1d5db; border-radius: 12px; transition: background 0.2s; }
+.filter-toggle input:checked + .filter-toggle-track { background: #059669; }
+.filter-toggle-thumb {
+  position: absolute; top: 3px; left: 3px;
+  width: 18px; height: 18px; background: white; border-radius: 50%;
+  transition: transform 0.2s; box-shadow: 0 1px 3px rgba(0,0,0,0.2); pointer-events: none;
+}
+.filter-toggle input:checked ~ .filter-toggle-thumb { transform: translateX(20px); }
+.dual-range { position: relative; height: 28px; margin: 8px 0 4px; }
+.dual-range-track { position: absolute; top: 50%; transform: translateY(-50%); width: 100%; height: 4px; background: #e5e7eb; border-radius: 2px; }
+.dual-range-fill { position: absolute; top: 50%; transform: translateY(-50%); height: 4px; background: #059669; border-radius: 2px; }
+.dual-range input[type=range] {
+  position: absolute; width: 100%; top: 50%; transform: translateY(-50%);
+  background: transparent; pointer-events: none;
+  -webkit-appearance: none; appearance: none; height: 4px; outline: none;
+}
+    #price-min { z-index: 3; }
+#price-max { z-index: 4; }
+.dual-range input[type=range]::-webkit-slider-thumb {
+  -webkit-appearance: none; pointer-events: all;
+  width: 20px; height: 20px; background: #059669; border-radius: 50%;
+  border: 2px solid white; box-shadow: 0 1px 4px rgba(0,0,0,0.25); cursor: pointer;
+}
+.note-btn {
+  width: 42px; height: 42px; border-radius: 50%;
+  display: flex; align-items: center; justify-content: center;
+  font-weight: 800; font-size: 18px; cursor: pointer;
+  transition: opacity 0.2s, transform 0.1s; border: none; outline: none;
+}
+.note-btn.inactive { opacity: 0.25; }
+.note-btn:hover { transform: scale(1.1); }
+.leaflet-filter-btn {
+  width: 44px; height: 44px; display: flex; align-items: center;
+  justify-content: center; background: white; border: none; cursor: pointer; color: #374151; padding: 0;
+}
+/* Boutons zoom +/- à la même taille pour l'alignement de la colonne de contrôles */
+.leaflet-bar a, .leaflet-touch .leaflet-bar a {
+  width: 44px; height: 44px; line-height: 44px; font-size: 22px;
+}
+.leaflet-filter-btn:hover { background: #f9fafb; }
+    #filter-panel { z-index: 5000 !important; }
+#filter-overlay { z-index: 4999 !important; }
+    .group:focus-within .group-hover\:opacity-100,
+.group:active .group-hover\:opacity-100 { opacity: 1; }
+
+  </style>
+  <link rel="manifest" href="manifest.json">
+<meta name="theme-color" content="#065f46">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="180 Bars">
+  <script src="https://cdn.jsdelivr.net/npm/fuse.js@7.0.0/dist/fuse.min.js"></script>
+</head>
+<body class="bg-zinc-50">
+
+<header class="fixed top-0 left-0 right-0 bg-emerald-700 text-white shadow-md z-50">
+  <div class="max-w-7xl mx-auto px-4 py-3">
+    <div class="flex items-center justify-between gap-3">
+
+      <!-- Logo + Titre -->
+      <div class="flex items-center gap-2 shrink-0">
+        <img src="assets/LogoNantes180bars.png" alt="Logo" class="h-12 w-auto">
+        <div class="hidden sm:block">
+          <span class="font-bold tracking-tighter text-xl">NANTES EN</span>
+          <span class="font-black tracking-tighter text-amber-300 text-xl">180 BARS</span>
+        </div>
+      </div>
+
+      <!-- Recherche -->
+      <div class="flex-1 max-w-md mx-2 relative">
+        <input id="search-bar" type="text" placeholder="Rechercher un bar..."
+          onfocus="showSuggestions('')"
+          class="w-full h-10 bg-white rounded-full px-5 text-zinc-900 placeholder-zinc-400 focus:outline-none text-sm">
+        <div id="search-suggestions" class="absolute left-0 right-0 mt-1 bg-white rounded-2xl shadow-lg max-h-60 overflow-y-auto hidden z-50"></div>
+      </div>
+
+      <!-- Boutons droite -->
+      <div class="flex items-center gap-3 shrink-0">
+        <a href="https://www.instagram.com/nantes_en_180_bars" target="_blank"
+           style="display:flex;align-items:center;opacity:1;transition:opacity 0.2s"
+           onmouseover="this.style.opacity=0.7" onmouseout="this.style.opacity=1">
+          <img src="assets/LogoInstagram.png" style="width:40px;height:40px;object-fit:contain;display:block">
+        </a>
+        <button onclick="openDonationModal()"
+                style="background:none;border:none;padding:0;cursor:pointer;display:flex;opacity:1;transition:opacity 0.2s"
+                onmouseover="this.style.opacity=0.7" onmouseout="this.style.opacity=1">
+          <img src="assets/Donation.png" style="width:40px;height:40px;object-fit:contain;display:block">
+        </button>
+      </div>
+
+    </div>
+  </div>
+</header>
+
+  <div id="map"></div>
+
+  <!-- Statut chargement / erreur (au-dessus de la carte) -->
+  <div id="app-status" class="fixed left-0 right-0 bottom-0 flex items-center justify-center pointer-events-none" style="top:var(--header-h);z-index:1500">
+    <div class="bg-white rounded-2xl shadow-lg px-5 py-3 text-zinc-600 text-sm">Chargement des bars…</div>
+  </div>
+
+<!-- MODAL BAR -->
+<div id="bar-modal" onclick="closeModal()" class="hidden fixed inset-0 bg-black/70 flex items-center justify-center p-4 z-[9999]">
+  <div onclick="event.stopPropagation()" class="bg-white rounded-3xl max-w-sm sm:max-w-md w-full max-h-[90vh] overflow-hidden shadow-2xl">
+    <div class="modal-scroll max-h-[90vh] overflow-y-auto flex flex-col">
+
+      <!-- Photo -->
+      <img id="modal-photo" class="w-full h-auto bg-zinc-200" alt="">
+
+<div class="p-5">
+
+  <!-- Titre + croix -->
+  <div class="flex justify-between items-center mb-4">
+    <h2 id="modal-name" class="text-2xl font-bold text-zinc-900"></h2>
+    <button onclick="closeModal()" class="text-2xl leading-none text-zinc-400 hover:text-zinc-600 w-8 h-8 flex items-center justify-center rounded-full hover:bg-zinc-100">×</button>
+  </div>
+
+  <!-- NOTE + PDLMC + LES + -->
+  <div class="flex gap-4 mb-4">
+
+    <!-- Colonne gauche : NOTE + PDLMC + HAPPY HOURS -->
+    <div class="flex flex-col gap-3" style="width:50%">
+<div class="flex items-start" style="gap:0">
+  <div id="block-rating" style="width:50%">
+    <span class="text-xs tracking-widest text-zinc-500 block mb-1">NOTE</span>
+    <div id="modal-rating" class="text-5xl font-black leading-none"></div>
+  </div>
+  <div id="block-price" style="width:50%">
+   <div class="flex items-center gap-1" style="margin-bottom:4px;height:16px">
+  <span class="text-xs tracking-widest text-zinc-500 leading-none">PDLMC</span>
+  <div class="relative group" style="line-height:1">
+    <span class="text-xs text-zinc-400 cursor-pointer select-none" tabindex="0" style="font-style:italic;font-weight:700;line-height:1">i</span>
+        <div class="absolute bottom-full left-1/2 -translate-x-1/2 mb-1 bg-zinc-800 text-white text-xs rounded-lg px-2 py-1 whitespace-nowrap opacity-0 group-hover:opacity-100 pointer-events-none transition-opacity z-50">
+          Pinte de la moins chère
+        </div>
+      </div>
+    </div>
+    <div id="modal-price" class="text-4xl font-semibold text-emerald-600"></div>
+  </div>
+</div>
+      <div id="modal-extra-info" class="text-zinc-600 text-[15.5px] space-y-2"></div>
+    </div>
+
+    <!-- Colonne droite : LES + et FERMETURE -->
+    <div style="width:50%" class="flex flex-col gap-3">
+      <div id="block-types" class="hidden">
+        <span class="text-xs tracking-widest text-zinc-500 block mb-1">LES +</span>
+        <div id="modal-types" class="flex flex-wrap"></div>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- Fermeture : picto agenda + texte libre, italique, coupé à 2 lignes max -->
+  <div id="modal-fermeture" class="text-zinc-600 mb-1" style="display:none;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden">
+    <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#6b7280" stroke-width="2" stroke-linecap="round" style="display:inline;vertical-align:-2px;margin-right:4px">
+      <rect x="3" y="5" width="18" height="16" rx="2"/>
+      <path d="M3 10h18M8 3v4M16 3v4"/>
+    </svg>
+    <span id="modal-fermeture-text" style="font-style:italic;font-size:13px"></span>
+  </div>
+
+  <!-- Description -->
+  <p id="modal-desc" class="text-zinc-600 text-[15px] mb-4"></p>
+
+  <!-- Bouton Instagram -->
+  <a id="modal-ig" href="#" target="_blank"
+     class="block mt-2 mb-6 mx-auto w-4/5 bg-emerald-700 hover:bg-emerald-800 transition-all text-white text-center py-3 rounded-3xl font-semibold text-sm">
+    Voir la publication Instagram →
+  </a>
+
+</div>
+    </div>
+  </div>
+</div>
+  <!-- FILTER OVERLAY -->
+<div id="filter-overlay" onclick="toggleFilterPanel()"></div>
+
+<!-- FILTER PANEL -->
+<div id="filter-panel">
+
+  <div style="padding:16px 20px 12px;display:flex;justify-content:space-between;align-items:center;border-bottom:1px solid rgba(0,0,0,0.08)">
+<div style="display:flex;align-items:baseline;gap:8px">
+  <span style="font-size:18px;font-weight:700;color:#111827">Filtrer</span>
+  <span id="filter-count" style="font-size:13px;color:#6b7280"></span>
+</div>
+    <button onclick="resetFilters()" style="font-size:13px;color:#059669;background:none;border:none;cursor:pointer;font-weight:600">Réinitialiser</button>
+  </div>
+
+
+<!-- Notes (incluant Pépite) -->
+<div class="filter-section">
+  <div class="filter-section-title">NOTES</div>
+<div id="filter-notes-list" style="display:flex;gap:6px;flex-wrap:nowrap;align-items:center"></div>
+</div>
+
+<!-- Prix -->
+<div class="filter-section">
+  <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:12px">
+    <span class="filter-section-title" style="margin:0">Prix</span>
+    <span id="price-display" class="text-sm font-medium text-emerald-700"></span>
+  </div>
+  <div class="dual-range">
+    <div class="dual-range-track"></div>
+    <div class="dual-range-fill" id="range-fill"></div>
+    <input type="range" id="price-min" step="0.5">
+    <input type="range" id="price-max" step="0.5">
+  </div>
+</div>
+
+  <!-- Type de bar -->
+  <div class="filter-section">
+    <div class="filter-section-title">Type de bar</div>
+    <div id="filter-type-list"></div>
+  </div>
+
+</div>
+  <!-- MODAL DONATION -->
+<div id="donation-modal" class="hidden fixed inset-0 bg-black/70 flex items-center justify-center p-4 z-[9999]" style="display:none">
+  <div class="bg-white rounded-3xl w-full overflow-hidden shadow-2xl mx-4" style="max-width:420px">
+    <div class="p-5">
+      <div class="flex justify-between items-center mb-6">
+        <h3 class="text-2xl font-bold text-zinc-900">Nous offrir une conso 🍺</h3>
+        <button onclick="closeDonationModal()" class="text-4xl leading-none text-zinc-400 hover:text-zinc-600">×</button>
+      </div>
+      <p class="text-zinc-600 mb-6 text-[15px]">Merci de soutenir l'équipe qui teste tous les bars de Nantes !</p>
+      <div class="grid grid-cols-3 gap-3 mb-4">
+        <button onclick="donate(2)" class="bg-emerald-100 hover:bg-emerald-200 transition py-3.5 rounded-3xl font-semibold text-lg h-12 flex items-center justify-center">2 €</button>
+        <button onclick="donate(5)" class="bg-emerald-100 hover:bg-emerald-200 transition py-3.5 rounded-3xl font-semibold text-lg h-12 flex items-center justify-center">5 €</button>
+        <button onclick="donate(10)" class="bg-emerald-100 hover:bg-emerald-200 transition py-3.5 rounded-3xl font-semibold text-lg h-12 flex items-center justify-center">10 €</button>
+      </div>
+      <div class="flex flex-col gap-3 mb-4">
+        <button onclick="donateCustom()"
+                class="w-full bg-emerald-700 hover:bg-emerald-800 text-white rounded-3xl font-semibold text-lg h-12 flex items-center justify-center">
+          Donner
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+  <script src="js/script.js" defer></script>
+  <script>
+  if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.register('sw.js');
+  }
+</script>
+</body>
+</html>

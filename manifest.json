@@ -1,0 +1,14 @@
+{
+  "name": "Nantes en 180 Bars",
+  "short_name": "180 Bars",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#fef8f5",
+  "theme_color": "#065f46",
+  "orientation": "portrait",
+"icons": [
+  { "src": "assets/Logoapp180.png", "sizes": "192x192", "type": "image/png" },
+  { "src": "assets/Logoapp180.png", "sizes": "512x512", "type": "image/png" }
+]
+}

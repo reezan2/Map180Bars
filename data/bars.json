@@ -1,0 +1,2487 @@
+{
+   "bars":[
+      {
+         "id":1,
+         "name":"Amère",
+         "lat":47.216979041336984,
+         "lng":-1.5595828827243843,
+         "rating":"B",
+         "color":"#b5dabe",
+         "pdlmc_price":"6€",
+         "description":"C’est un bar à bières situé à deux pas de la Tour de Bretagne. 🍺 Le bar est très sympa avec une jolie terrasse et un intérieur très chaleureux avec une borne de fléchettes ! 🎯",
+         "ig_link":"https://www.instagram.com/nantes_en_180_bars/p/DG583PDsSul/",
+         "photos":[
+            "photos/Amere.webp"
+         ],
+         "isPépite":false,
+         "types": ["flechettes"],
+         "closesAt": "02:00",
+         "fermeture": "Ouvert jusqu'à 2h du jeudi au samedi, minuit le reste de la semaine"
+      },
+      {
+         "id":2,
+         "name":"Atomic's Café",
+         "lat":47.21319270013995,
+         "lng":-1.5547751711643611,
+         "rating":"A",
+         "color":"#306629",
+         "pdlmc_price":"4,5€",
+         "description":"On avait testé l’Atomic's Café il y a maintenant 2 ans et le bar méritait bien une mise à jour ! Situé en plein centre ville de Nantes, l’intérieur est incroyable, une déco chaleureuse, des jeux",
+         "ig_link":"https://www.instagram.com/nantes_en_180_bars/p/DKXW8XYMngm/",
+         "photos":[
+            "photos/Atomic cafe.webp"
+         ],
+         "isPépite":false,
+         "types": ["jeux", "flechettes"]
+      },
+      {
+         "id":3,
+         "name":"Au Bon Coin",
+         "lat":47.22232721422095,
+         "lng":-1.5592216709342013,
+         "rating":"B",
+         "color":"#b5dabe",
+         "pdlmc_price":"5,9€",
+         "description":"Il nous aura fallu plus de 130 bars pour poster un premier bar autour du marché de Talensac ! 🍅 Bienvenue Au Bon Coin qui comme son nom l’indique se situe au coin d’une rue juste en face le marché !",
+         "ig_link":"https://www.instagram.com/nantes_en_180_bars/p/DM8TjvJsN7s/",
+         "photos":[
+            "photos/Bon coin.webp"
+         ],
+         "isPépite":false
+      },
+      {
+         "id":5,
+         "name":"Bagadou",
+         "lat":47.212876540168,
+         "lng":-1.5609009652368706,
+         "rating":"B",
+         "color":"#b5dabe",
+         "pdlmc_price":"5€",
+         "description":"Le Bagadou est de retour à la place du Mariole rue Jean-Jacques Rousseau ! En reprenant le bar, les nouveaux propriétaires ont redonné l’ancien nom de bar, on est parti tester ça pour vous ! 😎",
+         "ig_link":"https://www.instagram.com/nantes_en_180_bars/p/DJ7IbW7Mzxi/",
+         "photos":[
+            "photos/Bagadou.webp"
+         ],
+         "isPépite":false,
+         "types": ["flechettes"]
+      },
+      {
+         "id":6,
+         "name":"Bateau Lavoir",
+         "lat":47.22088696447233,
+         "lng":-1.5532570700785546,
+         "rating":"B",
+         "color":"#b5dabe",
+         "pdlmc_price":"7,5€",
+         "description":"Le Bateau Lavoir est une très belle péniche en bois située sur les bords de l'Erdre ! ☀️ Elle a reçu différentes modifications cette saison et ça valait bien une mise à jour du post !",
+         "ig_link":"https://www.instagram.com/nantes_en_180_bars/p/C-KncgGOSPT/",
+         "photos":[
+            "photos/Bateau lavoir.webp"
+         ],
+         "isPépite":false,
+         "types": ["terrasse-au-soleil", "guinguette"]
+      },
+      {
+         "id":7,
+         "name":"Bibou",
+         "lat":47.20695024270025,
+         "lng":-1.5504432054342356,
+         "rating":"A",
+         "color":"#306629",
+         "pdlmc_price":"5€",
+         "description":"Le Bibou est situé sur le Quai Hoche le long de la Loire. C'est un bar/bistro toute la journée où tu peux t'y poser pour le petit déj, le déjeuner ou pour y prendre un verre en soirée 😋",
+         "ig_link":"https://www.instagram.com/nantes_en_180_bars/p/C8SEy8NoHN3/",
+         "photos":[
+            "photos/Bibou.webp"
+         ],
+         "isPépite":false,
+         "types": ["terrasse-au-soleil"]
+      },
+      {
+         "id":8,
+         "name":"Black Pearl Café",
+         "lat":47.211542443878166,
+         "lng":-1.5454119747488047,
+         "pdlmc_price":"5,2€",
+         "description":"Le Black Pearl Café se situe quartier Madeleine près de la Cité des Congrès. C'est un bar tabac avec un intérieur assez grand, deux fléchettes 🎯, un billard 🎱 et des canapés bien confort 🥰",
+         "ig_link":"https://www.instagram.com/nantes_en_180_bars/p/C4gMvWQLSCL/",
+         "photos":[
+            "photos/Black pearl cafe.webp"
+         ],
+         "isPépite":false,
+         "types": ["pmu", "flechettes"]
+      },
+      {
+         "id":9,
+         "name":"Boucan",
+         "lat":47.21237265956549,
+         "lng":-1.5468103243814169,
+         "rating":"A",
+         "color":"#306629",
+         "pdlmc_price":"5€",
+         "description":"C’est tout beau, c’est tout neuf, on te parle aujourd’hui de Boucan, un nouveau bar qui vient d’ouvrir rue Fouré ! 🤗 Boucan c’est un bistro où tu peux manger le midi et prendre un verre",
+         "ig_link":"https://www.instagram.com/nantes_en_180_bars/p/DR-AJzDjTpS/",
+         "photos":[
+            "photos/Boucan.webp"
+         ],
+         "isPépite":false,
+         "types": ["flechettes"]
+      },
+      {
+         "id":10,
+         "name":"Bubba Gump",
+         "lat":47.216077332037486,
+         "lng":-1.5524793459129322,
+         "rating":"A",
+         "color":"#306629",
+         "pdlmc_price":"4,5€",
+         "description":"Le Bubba Gump est un bar à cocktail situé en plein cœur du quartier Bouffay ! 🍹La terrasse n’est pas très grande mais l’intérieur est chaleureux avec une deco originale ! 🌿",
+         "ig_link":"https://www.instagram.com/nantes_en_180_bars/p/DDCxn38sWlK/",
+         "photos":[
+            "photos/Bubba Gum.webp"
+         ],
+         "isPépite":false,
+         "types": ["cocktail", "flechettes"]
+      },
+      {
+         "id":11,
+         "name":"Buck Mulligan's",
+         "lat":47.21639501956994,
+         "lng":-1.5520990459129118,
+         "rating":"B",
+         "color":"#b5dabe",
+         "pdlmc_price":"4€",
+         "description":"Des pubs il y en a à Nantes, on te parle aujourd’hui du Buck Mulligan's ! Situé rue du Chateau en plein Bouffay, ce pub est très sympa et représente bien ce qu’on attend d’un pub irlandais ! ☘️",
+         "ig_link":"https://www.instagram.com/nantes_en_180_bars/p/DSX9RQSDVCy/",
+         "photos":[
+            "photos/Buck mulligan.webp"
+         ],
+         "isPépite":false,
+         "types": ["pub", "flechettes"]
+      },
+      {
+         "id":12,
+         "name":"Café de L'aubette",
+         "lat":47.22116784529858,
+         "lng":-1.5619507747482522,
+         "rating":"B",
+         "color":"#b5dabe",
+         "pdlmc_price":"6,4€",
+         "description":"On part aujourd’hui dans un coin un peu moins fréquenté du centre-ville mais tout aussi cool : la place Viarme ! Et super bien situé sur cette place, on te présente aujourd’hui le Café de l’Aubette. 😎",
+         "ig_link":"https://www.instagram.com/nantes_en_180_bars/p/DKKjJxHMDgg/",
+         "photos":[
+            "photos/Cafe aubette.webp"
+         ],
+         "isPépite":false
+      },
+      {
+         "id":13,
+         "name":"Café du Commerce",
+         "lat":47.213591462998956,
+         "lng":-1.5581571035843798,
+         "rating":"C",
+         "color":"#f4c280",
+         "pdlmc_price":"4€",
+         "description":"Le Café du Commerce est le plus grand bar de la place du Commerce à Nantes. C'est sûrement le bar avec la plus grande terrasse du quartier, un bon spot pour profiter du soleil. ☀️",
+         "ig_link":"https://www.instagram.com/nantes_en_180_bars/p/C25NT78obhN/",
+         "photos":[
+            "photos/Commerce.webp"
+         ],
+         "isPépite":false,
+         "types": ["terrasse-au-soleil", "flechettes"]
+      },
+      {
+         "id":14,
+         "name":"Café Kleber",
+         "lat":47.214594224439395,
+         "lng":-1.5660037517430838,
+         "rating":"B",
+         "color":"#b5dabe",
+         "pdlmc_price":"8€",
+         "description":"Café Kleber se situe rue Kléber dans le quartier Copernic. C'est un bar assez cosy/guindé en cohérence avec ce quartier proche de Graslin. 🔰 On a beaucoup aimé l'atmosphère qu'il y règne",
+         "ig_link":"https://www.instagram.com/nantes_en_180_bars/p/C711iGwONGa/",
+         "photos":[
+            "photos/Cafe kleber.webp"
+         ],
+         "isPépite":false
+      },
+      {
+         "id":15,
+         "name":"Café Le Bon Pasteur",
+         "lat":47.215708758052656,
+         "lng":-1.558772634269379,
+         "rating":"C",
+         "color":"#f4c280",
+         "pdlmc_price":"6€",
+         "description":"Le Bon Pasteur est un café nantais situé entre la Basilique St Nicolas, la rue du Calvaire et la place Royale. Discret d'extérieur, ce repère de jeunes habitués nantais cache une grande terrasse",
+         "ig_link":"https://www.instagram.com/nantes_en_180_bars/p/CsbpE0oMALB/",
+         "photos":[
+            "photos/Bon pasteur.webp"
+         ],
+         "isPépite":false
+      },
+      {
+         "id":16,
+         "name":"Canaille Café",
+         "lat":47.21612122001624,
+         "lng":-1.5568160160897158,
+         "rating":"C",
+         "color":"#f4c280",
+         "pdlmc_price":"3,9€",
+         "description":"Le Canaille Café se situe en plein centre-ville, le long de la ligne de tram, pas loin de Place du Cirque. 🚋 Cela peut d'ailleurs être un point négatif niveau bruit : avec le tram plus le passage",
+         "ig_link":"https://www.instagram.com/nantes_en_180_bars/p/C4JFB-Mrne7/",
+         "photos":[
+            "photos/Canaille.webp"
+         ],
+         "isPépite":false,
+         "types": ["flechettes"]
+      },
+      {
+         "id":17,
+         "name":"Cascabel",
+         "lat":47.213903437713746,
+         "lng":-1.553112003584357,
+         "rating":"A",
+         "color":"#306629",
+         "pdlmc_price":"4,3€",
+         "description":"Le Cascabel est un bar bien connu du quartier Feydeau. Il bénéficie d’une super terrasse, assez grande, parfaite pour les grands groupes. 🤗 L’intérieur est aussi très spacieux, avec",
+         "ig_link":"https://www.instagram.com/nantes_en_180_bars/p/DH1IbjKMUpl/",
+         "photos":[
+            "photos/Cascabel.webp"
+         ],
+         "isPépite":false,
+         "types": ["flechettes"]
+      },
+      {
+         "id":18,
+         "name":"Chauffe Marcel",
+         "lat":47.211206856661484,
+         "lng":-1.5495290594063624,
+         "rating":"B",
+         "color":"#b5dabe",
+         "pdlmc_price":"6€",
+         "description":"Le Chauffe Marcel se situe rue des Olivettes, tout près du Coup du Lapin. C'est un bistrot à l'ancienne et on adore l'atmosphère qui y règne ! 😍 À l'intérieur, on trouve quelques tables",
+         "ig_link":"https://www.instagram.com/nantes_en_180_bars/p/C6i-6Ifot7w/",
+         "photos":[
+            "photos/Chauffe marcel.webp"
+         ],
+         "isPépite":false,
+         "types": ["flechettes"]
+      },
+      {
+         "id":19,
+         "name":"Cheese & Friends",
+         "lat":47.21405526191541,
+         "lng":-1.5643786459130802,
+         "rating":"Pépite",
+         "color":"#193f21",
+         "pdlmc_price":"7,5€",
+         "description":"Le Cheese and Friends est un bar qui a ouvert il y a un peu plus d'un an rue racine, en haut de la place Graslin. Comme son nom l'indique c'est un bar à fromages. 🧀 Tu y trouveras plusieurs",
+         "ig_link":"https://www.instagram.com/nantes_en_180_bars/p/CxfYCBfIdbP/",
+         "photos":[
+            "photos/Cheese et friends.webp"
+         ],
+         "isPépite":true
+      },
+      {
+         "id":20,
+         "name":"Chez les filles",
+         "lat":47.21700449432634,
+         "lng":-1.5585535652351308,
+         "rating":"A",
+         "color":"#306629",
+         "pdlmc_price":"6€",
+         "description":"Bienvenue au bar Chez les Filles ! 👧 Située dans le quartier Bretagne, c’est le bar/brasserie que l’on te fait découvrir aujourd’hui ! 👌 Situé rue des 2 ponts, le bar bénéficie d’un spot",
+         "ig_link":"https://www.instagram.com/nantes_en_180_bars/p/DMFew6BIcMa/",
+         "photos":[
+            "photos/Chez les filles.webp"
+         ],
+         "isPépite":false
+      },
+      {
+         "id":21,
+         "name":"Chez les Garçons",
+         "lat":47.21320321518196,
+         "lng":-1.5616538612557023,
+         "rating":"C",
+         "color":"#f4c280",
+         "pdlmc_price":"6,5€",
+         "description":"Chez les Garçons est un super bar pour siroter un cocktail dans l'un des plus beau quartier de Nantes ! 🍹🍸Tu y trouveras des cocktails qui changent de l'ordinaire mais aussi pas mal de vins",
+         "ig_link":"https://www.instagram.com/nantes_en_180_bars/p/CkWUfijI0DL/",
+         "photos":[
+            "photos/Chez les garcons.webp"
+         ],
+         "isPépite":false
+      },
+      {
+         "id":22,
+         "name":"Chez Louisette",
+         "lat":47.20738424623463,
+         "lng":-1.5549339382529426,
+         "rating":"A",
+         "color":"#306629",
+         "pdlmc_price":"3,9€",
+         "description":"Chez Louisette se situe en face du Louis Blanc sur les bords de Loire derrière le CHU sur l'île de Nantes ! On adore le spot et la terrasse au soleil avec vue sur la Loire lors des",
+         "ig_link":"https://www.instagram.com/nantes_en_180_bars/p/C51HhkuBoz4/",
+         "photos":[
+            "photos/Chez louisette.webp"
+         ],
+         "isPépite":false,
+          "types": ["terrasse-au-soleil"]
+
+      },
+      {
+         "id":23,
+         "name":"Chez Lulu",
+         "lat":47.21482645759179,
+         "lng":-1.5528031230709076,
+         "rating":"C",
+         "color":"#f4c280",
+         "pdlmc_price":"5,3€",
+         "description":"Chez Lulu est un des bars présent sur la place Bouffay, un très bon endroit pour prendre un verre en terrasse ! Service à table, il y a pas mal de places ce qui peut être cool si vous êtes un bon",
+         "ig_link":"https://www.instagram.com/nantes_en_180_bars/p/ClJmGD3ohyR/",
+         "photos":[
+            "photos/Chez lulu.webp"
+         ],
+         "isPépite":false,
+         "types": ["terrasse-au-soleil"]
+      },
+      {
+         "id":24,
+         "name":"Chez Maurice",
+         "lat":47.22288235480635,
+         "lng":-1.5519513900907482,
+         "rating":"C",
+         "color":"#f4c280",
+         "pdlmc_price":"6€",
+         "description":"Chez Maurice, c'est une brasserie / bar situé tout près du pont St-Mihiel, une situation idéale pour se poser sur leur grande terrasse lors des beaux jours ! ☀️ L'intérieur du bar est lui vraime",
+         "ig_link":"https://www.instagram.com/nantes_en_180_bars/p/DFvYAj0Mfkw/",
+         "photos":[
+            "photos/Chez maurice.webp"
+         ],
+         "isPépite":false,
+         "types": ["flechettes"]
+      },
+      {
+         "id":25,
+         "name":"Coco Bandit",
+         "lat":47.2138914781245,
+         "lng":-1.5483106113700928,
+         "rating":"A",
+         "color":"#306629",
+         "pdlmc_price":"6€",
+         "description":"De passage quartier Olivettes pour vous présenter le Coco Bandit ! (anciennement le Sales Gosses que l’on avait testé il y a 2 ans et qui a donc été reprit) 😎 Le Coco Bandit c’est un super",
+         "ig_link":"https://www.instagram.com/nantes_en_180_bars/p/DNGZ_bSsDVd/",
+         "photos":[
+            "photos/Coco bandit.webp"
+         ],
+         "isPépite":false,
+         "types": ["terrasse-au-soleil", "flechettes"]
+      },
+      {
+         "id":26,
+         "name":"De Dannan Celtic Pub",
+         "lat":47.214041034807344,
+         "lng":-1.5533510075651753,
+         "rating":"B",
+         "color":"#b5dabe",
+         "pdlmc_price":"4,5€",
+         "description":"Le De Dannan est un pub irlandais situé dans le dynamique quartier Feydeau. ☘️ La décoration du bar nous rappelle l'ambiance celtique chère aux Irish Pubs et apparaît très chaleureuse.",
+         "ig_link":"https://www.instagram.com/nantes_en_180_bars/p/C2NjaQmqj71/",
+         "photos":[
+            "photos/De Dannan.webp"
+         ],
+         "isPépite":false
+      },
+      {
+         "id":27,
+         "name":"Delirium Café",
+         "lat":47.213356445085864,
+         "lng":-1.5503937061363338,
+         "rating":"B",
+         "color":"#b5dabe",
+         "pdlmc_price":"5€",
+         "description":"Le Délirium Café est un bar à bières plutôt convivial situé proche du tunnel Feydeau/Olivettes ! 🍻 L'intérieur est très spacieux, tu y trouveras de grandes tables, parfait pour les groupes ! 👌",
+         "ig_link":"https://www.instagram.com/nantes_en_180_bars/p/Co2m5-woEEW/",
+         "photos":[
+            "photos/Delirium.webp"
+         ],
+         "isPépite":false,
+         "types": ["flechettes"]
+      },
+      {
+         "id":28,
+         "name":"Do It Bar",
+         "lat":47.204157385036495,
+         "lng":-1.5754493035849642,
+         "rating":"B",
+         "color":"#b5dabe",
+         "pdlmc_price":"6,8€",
+         "description":"Le Do It Bar est un bar super sympa situé juste au pied de la Butte Saint Anne. On l’a découvert cet été mais on l’aime déjà beaucoup ! 😊 Le bar a une petite terrass",
+         "ig_link":"https://www.instagram.com/nantes_en_180_bars/p/DCpI3SYsRRC/",
+         "photos":[
+            "photos/Do it.webp"
+         ],
+         "isPépite":false
+      },
+      {
+         "id":29,
+         "name":"Drôle de Barge",
+         "lat":47.21599159457347,
+         "lng":-1.5442708189267988,
+         "rating":"B",
+         "color":"#b5dabe",
+         "pdlmc_price":"5,5€",
+         "description":"Le soleil est de retour, on en profite donc pour vous présenter un bar bien summer ! ☀️Bienvenue à la Drôle de barge ! 🤗 Situé dans le quartier Gare Sud, Drôle de Barge, c’est une péniche f",
+         "ig_link":"https://www.instagram.com/nantes_en_180_bars/p/DIYaKWQsNp9/",
+         "photos":[
+            "photos/Drole de barge.webp"
+         ],
+         "isPépite":false,
+         "types": ["terrasse-au-soleil", "guinguette"]
+      },
+      {
+         "id":30,
+         "name":"DROP",
+         "lat":47.219035011332814,
+         "lng":-1.5611173612553277,
+         "rating":"B",
+         "color":"#b5dabe",
+         "pdlmc_price":"5€",
+         "description":"Le DROP, c’est un bar qui n’a pas encore un an situé entre Bretagne et la place Viarme. Il y fait bon vivre à l’intérieur avec une décoration chaleureuse et un service très cool ! 🤗 L’extérieur est",
+         "ig_link":"https://www.instagram.com/nantes_en_180_bars/p/DJzVwSEsPQN/",
+         "photos":[
+            "photos/Drop.webp"
+         ],
+         "isPépite":false
+      },
+      {
+         "id":31,
+         "name":"Espit Chupitos",
+         "lat":47.21472126125889,
+         "lng":-1.5541570747486486,
+         "rating":"B",
+         "color":"#b5dabe",
+         "pdlmc_price":"5,5€",
+         "description":"Tu l'as compris, le concept du bar, c'est les shooters ! Plus de 600 à la cartes, des enflammés, pimentés, avec des bonbons, des fruits, des jeux, des plus funs, bref il y en a",
+         "ig_link":"https://www.instagram.com/nantes_en_180_bars/p/C5EZxn7MDs5/",
+         "photos":[
+            "photos/Esprit chupitos.webp"
+         ],
+         "isPépite":false
+      },
+      {
+         "id":32,
+         "name":"Fleming's Irish Pub",
+         "lat":47.21658107329612, 
+         "lng":-1.555292635653876,
+         "rating":"B",
+         "color":"#b5dabe",
+         "pdlmc_price":"5,2€",
+         "description":"Voici l'Irish Pub le plus connu de la rue des Carmes ! 🍀 Le Fleming's se situe dans un angle de la rue, avec sa grande terrasse et son étage la bar dispose de pas mal de places, ce qui est assez",
+         "ig_link":"https://www.instagram.com/nantes_en_180_bars/p/CxJCN4po7EV/",
+         "photos":[
+            "photos/Flemings.webp"
+         ],
+         "isPépite":false,
+         "types": ["pub", "flechettes"]
+      },
+      {
+         "id":33,
+         "name":"Game Over",
+         "lat":47.22017661902607,
+         "lng":-1.5494692560174854,
+         "rating":"A",
+         "color":"#306629",
+         "pdlmc_price":"5€",
+         "description":"Le Game Over est un bar situé tout proche de la rue Maréchal Joffre, juste à côté de La Maison ! Tu peux t’en douter via son nom, Game Over est un bar à jeux où tu pourras trouver tout un tas de jeux",
+         "ig_link":"https://www.instagram.com/nantes_en_180_bars/p/DDnBiIQRU2y/",
+         "photos":[
+            "photos/Game over.webp"
+         ],
+         "isPépite":false,
+         "types": ["jeux"]
+      },
+      {
+         "id":34,
+         "name":"Gigg's Irish Pub (Cathédrale)",
+         "lat":47.21818900079468,
+         "lng":-1.5517527910856643,
+         "rating":"B",
+         "color":"#b5dabe",
+         "pdlmc_price":"5,5€",
+         "description":"Le Giggs Cathédrale est un des pubs irlandais les plus connus de Nantes et aussi un de ceux qui a le plus de succès ! Situé place St Pierre, en face la cathédrale, le pub possède une assez",
+         "ig_link":"https://www.instagram.com/nantes_en_180_bars/p/C_0ug_npuuH/",
+         "photos":[
+            "photos/Gigg irish pub.webp"
+         ],
+         "isPépite":false,
+         "types": ["pub", "flechettes"]
+      },
+      {
+         "id":35,
+         "name":"Gigg's Irish Pub (Graslin)",
+         "lat":47.213199722375535, 
+         "lng":-1.5603689446747595,
+         "rating":"B",
+         "color":"#b5dabe",
+         "pdlmc_price":"5,9€",
+         "description":"Le Gigg's a ouvert son petit frère au mois d'avril à deux pas de la place Graslin ! La team 180B l'a testé pour toi. L'intérieur ressemble sensiblement au Gigg's de Cathédrale avec des écrans et de",
+         "ig_link":"https://www.instagram.com/nantes_en_180_bars/p/CtoNhpLIK0c/",
+         "photos":[
+            "photos/Gigg irish pub graslin.webp"
+         ],
+         "isPépite":false,
+         "types": ["pub", "flechettes"]
+      },
+      {
+         "id":36,
+         "name":"Guindaille",
+         "lat":47.211940418826174,
+         "lng":-1.5470533631052266,
+         "rating":"B",
+         "color":"#b5dabe",
+         "pdlmc_price":"5€",
+         "description":"La Guindaille est un \"bar à manger\" ouvert assez récemment (fin 2022) dans la jolie rue Fouré ! 🤩 Le bar se distingue grâce à son offre et sa carte de plats assez complète le midi et le soir !",
+         "ig_link":"https://www.instagram.com/nantes_en_180_bars/p/C6UBEo9sruW/",
+         "photos":[
+            "photos/Guindaille.webp"
+         ],
+         "isPépite":false
+      },
+      {
+         "id":37,
+         "name":"Guinguette du Belvédère",
+         "lat":47.20767843525292,
+         "lng":-1.546800141310856,
+         "rating":"A",
+         "color":"#306629",
+         "pdlmc_price":"5,8€",
+         "description":"La guinguette du Belvédère c'est peut-être LE bar où aller quand il fait beau. 😎 Entièrement ouvert avec un toit terrasse, c'est un super endroit pour aller prendre un verre au soleil ☀️",
+         "ig_link":"https://www.instagram.com/nantes_en_180_bars/p/CsJBvUKokyY/",
+         "photos":[
+            "photos/Guinguette bel.webp"
+         ],
+         "isPépite":false,
+         "types": ["terrasse-au-soleil", "guinguette"]
+      },
+      {
+         "id":38,
+         "name":"HoPoPop Café",
+         "lat":47.215180859285894,
+         "lng":-1.5511440035842852,
+         "rating":"C",
+         "color":"#f4c280",
+         "pdlmc_price":"5€",
+         "description":"Si tu cherches un bar avec une ambiance festive et jeune, tu es au bon endroit ! 🤩 Le HoPoPop propose de nombreux évènements, jam session, électro à danser, karaoké un jeudi sur deux, apéro",
+         "ig_link":"https://www.instagram.com/nantes_en_180_bars/p/Cltqz_VIJq_/",
+         "photos":[
+            "photos/Hopopop cafe.webp"
+         ],
+         "isPépite":false
+      },
+      {
+         "id":39,
+         "name":"Jack's Corner",
+         "lat":47.215122843727656,
+         "lng":-1.5531112997164822,
+         "rating":"B",
+         "color":"#b5dabe",
+         "pdlmc_price":"5€",
+         "description":"Le Jack's Corner est un nouveau bar situé tout près de la Place Bouffay juste à côté du Perrok. C'est un vrai pub avec un large choix de bières et de spiritueux ! 🍺🥃 L'intérieur ne déroge pas à",
+         "ig_link":"https://www.instagram.com/nantes_en_180_bars/p/C9e0W47Mn-c/",
+         "photos":[
+            "photos/Jack corner.webp"
+         ],
+         "isPépite":false,
+         "types": ["pub", "flechettes"]
+      },
+      {
+         "id":40,
+         "name":"John McByrne",
+         "lat":47.21580210754548,
+         "lng":-1.5525635115289418,
+         "rating":"A",
+         "color":"#306629",
+         "pdlmc_price":"4,8€",
+         "description":"Situé en plein coeur de Bouffay, le John McByrn est un des pubs les plus connus de Nantes ! ☘️ Comme dans la plupart des pubs, on retrouve de nombreux écrans à l'intérieur pour pouvoir regarder",
+         "ig_link":"https://www.instagram.com/nantes_en_180_bars/p/C69SD6NOK7o/",
+         "photos":[
+            "photos/John mcbyrne.webp"
+         ],
+         "isPépite":false,
+         "types": ["pub"]
+      },
+      {
+         "id":41,
+         "name":"John McByrne & Co",
+         "lat":47.215816501584676,
+         "lng":-1.553110280578212,
+         "rating":"B",
+         "color":"#b5dabe",
+         "pdlmc_price":"4,8€",
+         "description":"Le John McByrne & Co, c'est le bar jumeau du John McByrne. Le bar est situé à 50 mètres de ce dernier ! ☘️L'ambiance y est très similaire et la carte identique. Notre commentaire est donc le",
+         "ig_link":"https://www.instagram.com/nantes_en_180_bars/p/C7MrOzyompy/",
+         "photos":[
+            "photos/John mcbyrne Co.webp"
+         ],
+         "isPépite":false,
+         "types": ["pub", "flechettes"]
+      },
+      {
+         "id":42,
+         "name":"La Bodega",
+         "lat":47.21531140370032,
+         "lng":-1.5551240882417592,
+         "rating":"A",
+         "color":"#306629",
+         "pdlmc_price":"6€",
+         "description":"On est repassé par la Bodega et on profite pour refaire un petit post sur ce classique ! La Bodega propose un concept original, celui d’y boire au Porron du vin blanc aromatisé ! 🍷",
+         "ig_link":"https://www.instagram.com/nantes_en_180_bars/p/DLpyk8usiix/",
+         "photos":[
+            "photos/Bodega.webp"
+         ],
+         "isPépite":false
+      },
+      {
+         "id":43,
+         "name":"La Brasserie du Pilori",
+         "lat":47.21634305657072,
+         "lng":-1.5527595612555023,
+         "rating":"D",
+         "color":"#d66643",
+         "pdlmc_price":"5,9€",
+         "description":"Tu es 100% déjà passé devant : on te présente aujourd’hui la Brasserie du Pilori, un bar situé comme son nom l’indique sur la place du Pilori en plein coeur de Bouffay. 👌 Le Pilori, c’est une",
+         "ig_link":"https://www.instagram.com/nantes_en_180_bars/p/DUBktIBjYUP/?__d=1",
+         "photos":[
+            "photos/Pilori.webp"
+         ],
+         "isPépite":false
+      },
+      {
+         "id":44,
+         "name":"La Cantine du Voyage",
+         "lat":47.20175658598991,
+         "lng":-1.5727884691400138,
+         "rating":"A",
+         "color":"#306629",
+         "pdlmc_price":"6€",
+         "description":"Qui ne connait pas la Cantine du Voyage ! 😍 Ouvert seulement lors de la belle saison, c'est un des bars / guinguette les plus connus de Nantes ! Située au niveau du Quai des Antilles, la Cantine",
+         "ig_link":"https://www.instagram.com/nantes_en_180_bars/p/CtW8gMxoqoT/",
+         "photos":[
+            "photos/Cantine.webp"
+         ],
+         "isPépite":false,
+         "types": ["terrasse-au-soleil", "guinguette", "flechettes"]
+      },
+      {
+         "id":45,
+         "name":"La Casa",
+         "lat":47.223671128926405,
+         "lng":-1.5529062805749372,
+         "rating":"A",
+         "color":"#306629",
+         "pdlmc_price":"6,5€",
+         "description":"La Casa est une péniche située sur les bords de l'Erdre à côté du pont de St Mihiel. 🚤 Le cadre est vraiment incroyable ! On trouve de nombreuses places sur le bateau, mais aussi",
+         "ig_link":"https://www.instagram.com/nantes_en_180_bars/p/C9HuY6JhjuI/",
+         "photos":[
+            "photos/Casa.webp"
+         ],
+         "isPépite":false,
+         "types": ["terrasse-au-soleil", "cocktail"]
+      },
+      {
+         "id":46,
+         "name":"La Contrescarpe",
+         "lat":47.21540715875723,
+         "lng":-1.5592432459129868,
+         "rating":"C",
+         "color":"#f4c280",
+         "pdlmc_price":"4,5€",
+         "description":"Bienvenue dans un super bar de quartier qui porte le nom de sa rue : La Contrescarpe ! 😎 À deux pas de la place Royale, ce bar est ouvert toute la journée (8h-21h) et propose le déjeuner le midi. 🍽",
+         "ig_link":"https://www.instagram.com/nantes_en_180_bars/p/DJj6WpqMKko/",
+         "photos":[
+            "photos/Contrescarpe.webp"
+         ],
+         "isPépite":false,
+         "types": ["flechettes"]
+      },
+      {
+         "id":47,
+         "name":"La Fée Verte",
+         "lat":47.21636991865799,
+         "lng":-1.556040288241662,
+         "rating":"C",
+         "color":"#f4c280",
+         "pdlmc_price":"5,5€",
+         "description":"Bienvenue à La Fée Verte 🧚, tu es forcément déjà passé devant ! Ce bar se trouve en plein centre-ville à l’entrée du quartier Bouffay et en bas de la rue du Calvaire.",
+         "ig_link":"https://www.instagram.com/nantes_en_180_bars/p/DQpQBy1DdXw/",
+         "photos":[
+            "photos/Fee verte.webp"
+         ],
+         "isPépite":false,
+         "types": ["terrasse-au-soleil", "flechettes"]
+      },
+      {
+         "id":48,
+         "name":"La Forge",
+         "lat":47.21958544317536, 
+         "lng":-1.5485266571664342,
+         "rating":"B",
+         "color":"#b5dabe",
+         "pdlmc_price":"5€",
+         "description":"La Forge, Bar médiéval est un bar atypique en recul de la fameuse rue du Maréchal Joffre. Aucune terrasse devant l'établissement (terrasse dispo l'été), mais tu trouveras à l'intérieur",
+         "ig_link":"https://www.instagram.com/nantes_en_180_bars/p/Cmr32O5oaD5/",
+         "photos":[
+            "photos/Forge.webp"
+         ],
+         "isPépite":false,
+         "types": ["jeux"]
+      },
+      {
+         "id":49,
+         "name":"La Licorne Noire",
+         "lat":47.21172086905303,
+         "lng":-1.545551194072955,
+         "rating":"A",
+         "color":"#306629",
+         "pdlmc_price":"6,5€",
+         "description":"Pour bien commencer cette rentrée, on vous fait découvrir un nouveau bar (ouvert début 2025) pas loin de la Cité des Congrès. Bienvenue à La Licorne Noire ! 🦄",
+         "ig_link":"https://www.instagram.com/nantes_en_180_bars/p/DOOd7-5jWES/",
+         "photos":[
+            "photos/Licorne noire.webp"
+         ],
+         "isPépite":false
+      },
+      {
+         "id":50,
+         "name":"La Lune Froide",
+         "lat":47.22414016993569,
+         "lng":-1.5537169900906778,
+         "rating":"Pépite",
+         "color":"#193f21",
+         "pdlmc_price":"6€",
+         "description":"La Lune Froide est un bar situé dans le quartier animé de St Mihiel. Possédant une jolie devanture typique des cafés parisiens, tu pourras retrouver une terrasse ombragée située sur les bords de l'Erdre",
+         "ig_link":"https://www.instagram.com/nantes_en_180_bars/p/CsywP3mIsyo/",
+         "photos":[
+            "photos/Lune froide.webp"
+         ],
+         "isPépite":true
+      },
+      {
+         "id":51,
+         "name":"La Mangouste",
+         "lat":47.212326965952926,
+         "lng":-1.5468685305706156,
+         "rating":"C",
+         "color":"#f4c280",
+         "pdlmc_price":"6,5€",
+         "description":"La Mangouste est un bar/restaurant à l'angle de la rue Fouré, pas loin de la cité des congrès. Grand intérieur et longue terrasse, le lieu est sympathique et les consos élaborées (les cocktails sont",
+         "ig_link":"https://www.instagram.com/nantes_en_180_bars/p/CljX4TUIQtW/",
+         "photos":[
+            "photos/Mangouste.webp"
+         ],
+         "isPépite":false
+      },
+      {
+         "id":52,
+         "name":"La Provence",
+         "lat":47.2154443032431,
+         "lng":-1.558586472899189,
+         "rating":"D",
+         "color":"#d66643",
+         "pdlmc_price":"5,5€",
+         "description":"La Provence se situe juste derrière la place Royale. Le bar possède une belle terrasse et un intérieur assez classique, plutôt chaleureux en hiver. La carte du bar est assez large, avec quelques",
+         "ig_link":"https://www.instagram.com/nantes_en_180_bars/p/CygruXNIAJr/",
+         "photos":[
+            "photos/Provence.webp"
+         ],
+         "isPépite":false,
+         "types": ["flechettes"]
+      },
+      {
+         "id":53,
+         "name":"La Réserve",
+         "lat":47.215078020971525, 
+         "lng":-1.5570522190339027,
+         "rating":"C",
+         "color":"#f4c280",
+         "pdlmc_price":"4€",
+         "description":"On commence l’année 2026 avec un tour à la Réserve situé sur la très chouette place Fernand Soil. 😎 La réserve, c’est plutôt un bar de passage de par sa situation et un bar étudiant !",
+         "ig_link":"https://www.instagram.com/nantes_en_180_bars/p/DTDZ-36DbGG/",
+         "photos":[
+            "photos/Reserve.webp"
+         ],
+         "isPépite":false,
+         "types": ["flechettes"]
+      },
+      {
+         "id":54,
+         "name":"La Ribouldingue",
+         "lat":47.21677419922672,
+         "lng":-1.5525417035842215,
+         "rating":"Pépite",
+         "color":"#193f21",
+         "pdlmc_price":"4€",
+         "description":"La Ribouldingue est un bar situé rue de Verdun, entre la rue de Strasbourg et la place du Pilori. 📍 C'est le seul bar de la rue, l'emplacement est idéal dans le centre-ville, mais pas  ",
+         "ig_link":"https://www.instagram.com/nantes_en_180_bars/p/CzrTy8Uomi1/",
+         "photos":[
+            "photos/Ribouldingue.webp"
+         ],
+         "isPépite":true,
+         "types": ["flechettes"]
+      },
+      {
+         "id":55,
+         "name":"La Taverne Royale",
+         "lat":47.21489198131332,
+         "lng":-1.5579249189268933,
+         "rating":"C",
+         "color":"#f4c280",
+         "pdlmc_price":"6,6€",
+         "description":"Chaque personne venant à Nantes est forcément passé une fois devant la Taverne Royale ! 🤓 Celle-ci se situe sur la Place Royale, difficile de la rater ! 👑 Le cadre est cool avec une immense terrasse",
+         "ig_link":"https://www.instagram.com/nantes_en_180_bars/p/DPjfqx-jXCb/",
+         "photos":[
+            "photos/Taverne royale.webp"
+         ],
+         "isPépite":false,
+         "types": ["terrasse-au-soleil"]
+      },
+      {
+         "id":56,
+         "name":"La Terrasse de l’Île",
+         "lat":47.20119471336808,
+         "lng":-1.573320068002908,
+         "rating":"B",
+         "color":"#b5dabe",
+         "pdlmc_price":"3,5€",
+         "description":"Pas toujours facile de s’y retrouver dans l’ordre des bars au Hangar à Bananes ? 🍌 Le premier juste à côté du Warehouse , c’est La Terrasse de l’Îles et c’est le bar qu’on te présente aujourd’hui !",
+         "ig_link":"https://www.instagram.com/nantes_en_180_bars/p/DIl9AqBsTKC/",
+         "photos":[
+            "photos/Terrasse ile.webp"
+         ],
+         "isPépite":false,
+         "types": ["terrasse-au-soleil", "flechettes"]
+      },
+      {
+         "id":57,
+         "name":"La Trinquette",
+         "lat":47.21212625091294,
+         "lng":-1.559678385030993,
+         "rating":"B",
+         "color":"#b5dabe",
+         "pdlmc_price":"6€",
+         "description":"La Trinquette est un super bar de quartier situé sur le Quai de la Fosse ! On a adoré l'accueil des serveurs et l'atmosphère du bar. 🤗 On a l'impression d'être entouré d'habitués comme dans",
+         "ig_link":"https://www.instagram.com/nantes_en_180_bars/p/Cob-XFPMXsy/",
+         "photos":[
+            "photos/Trinquette.webp"
+         ],
+         "isPépite":false,
+         "types": ["terrasse-au-soleil"]
+      },
+      {
+         "id":58,
+         "name":"L'Absence",
+         "lat":47.20759455418521,
+         "lng":-1.5572328459134712,
+         "rating":"A",
+         "color":"#306629",
+         "pdlmc_price":"5,9€",
+         "description":"Tu t'es peut-être déjà demandé ce qu'était ce bloc bleu qui ressemble à une dent ou un glaçon (ça dépend des gens) ? Eh bien, c'est un bar : l’Absence et c'est clairement un de nos bars",
+         "ig_link":"https://www.instagram.com/nantes_en_180_bars/p/DAMATtMojy2/",
+         "photos":[
+            "photos/Absence.webp"
+         ],
+         "isPépite":false,
+         "types": ["terrasse-au-soleil"]
+         
+      },
+      {
+         "id":59,
+         "name":"L'Aléa",
+         "lat":47.218645499475905,
+         "lng":-1.5659989882415333,
+         "rating":"A",
+         "color":"#306629",
+         "pdlmc_price":"5,9€",
+         "description":"L'Aléa est un bar encore assez jeune situé entre la place Viarme et le boulevard Guist’hau. C’est un vrai petit bar de quartier, chaleureux comme on aime ! 🥰 La terrasse du bar est très sym",
+         "ig_link":"https://www.instagram.com/nantes_en_180_bars/p/DHjJKpBsT2q/",
+         "photos":[
+            "photos/Alea.webp"
+         ],
+         "isPépite":false
+      },
+      {
+         "id":60,
+         "name":"Le 100 P'",
+         "lat":47.21552605326969,
+         "lng":-1.5585853229071283,
+         "rating":"A",
+         "color":"#306629",
+         "pdlmc_price":"5€",
+         "description":"Le 100 P' se situe dans une petite rue derrière Place Royale. Le bar n'est pas immense mais on s'y sent vite très bien ! En grande partie grâce à l'accueil des gérants qui sont adorables ! 🥰",
+         "ig_link":"https://www.instagram.com/nantes_en_180_bars/p/C5bsbD9IHEi/",
+         "photos":[
+            "photos/100p.webp"
+         ],
+         "isPépite":false
+      },
+      {
+         "id":61,
+         "name":"Le 13 & 3",
+         "lat":47.21485229324983, 
+         "lng":-1.5528336910866851,
+         "rating":"B",
+         "color":"#b5dabe",
+         "pdlmc_price":"5,3€",
+         "description":"Le 13 et 3 se situe au milieu de la place Bouffay, un super emplacement au soleil une bonne partie de la journée. ☀️L'intérieur est plus petit mais plein de charme, un petit peu plus que les autre",
+         "ig_link":"https://www.instagram.com/nantes_en_180_bars/p/CpaqCRDIDaV/",
+         "photos":[
+            "photos/13 et 3.webp"
+         ],
+         "isPépite":false,
+         "types": ["terrasse-au-soleil"]
+      },
+      {
+         "id":62,
+         "name":"Le Bain Rouge",
+         "lat":47.212677389568654, 
+         "lng":-1.5516002283961896,
+         "rating":"B",
+         "color":"#b5dabe",
+         "pdlmc_price":"6€",
+         "description":"Aujourd’hui, on te présente le Bain Rouge ! Situé à l’entrée du quartier Olivette côté CHU, le Bain Rouge possède une terrasse assez chouette bien ensoleillée une bonne partie de la journée. ☀️",
+         "ig_link":"https://www.instagram.com/nantes_en_180_bars/p/DFQcPszM3MG/",
+         "photos":[
+            "photos/Bain rouge.webp"
+         ],
+         "isPépite":false
+      },
+      {
+         "id":63,
+         "name":"Le Bar du Coin",
+         "lat":47.21546844700137,
+         "lng":-1.553575995693255,
+         "rating":"A",
+         "color":"#306629",
+         "pdlmc_price":"5€",
+         "description":"On continue 2026 avec un classique du quartier le plus classique pour sortir prendre un verre à Nantes : Le Bar Du Coin. Situé à deux pas de la place Bouffay, à l’angle de deux petites rues",
+         "ig_link":"https://www.instagram.com/nantes_en_180_bars/p/DTf_ckqjeR8/",
+         "photos":[
+            "photos/Bar du coin.webp"
+         ],
+         "isPépite":false,
+         "types": ["flechettes"]
+      },
+      {
+         "id":64,
+         "name":"Le Bras de Fer",
+         "lat":47.20563354395882,
+         "lng":-1.5572479693148888,
+         "rating":"A",
+         "color":"#306629",
+         "pdlmc_price":"6€",
+         "description":"Le Bras de Fer est pour nous un des classiques du quartier République sur l'Ile de Nantes ! 😍 On adore son l'intérieur du bar, on s'y sens toujours très bien avec le petit étage, les canapés et",
+         "ig_link":"https://www.instagram.com/nantes_en_180_bars/p/Czd1OfpIGUx/",
+         "photos":[
+            "photos/Bras de fer.webp"
+         ],
+         "isPépite":false,
+         "types": ["terrasse-au-soleil", "flechettes"]
+      },
+      {
+         "id":65,
+         "name":"Le Café des Plantes",
+         "lat":47.21826222622419,
+         "lng":-1.5425317652345794,
+         "rating":"D",
+         "color":"#d66643",
+         "pdlmc_price":"6,2€",
+         "description":"Tu passes par la gare de Nantes, tu as 30 min à perdre ? Le café des plantes est le bar parfait. ☕️ Situé juste en face de l'entrée Nord de la gare, la terrasse est assez grande et juste à côté ",
+         "ig_link":"https://www.instagram.com/nantes_en_180_bars/p/CjixaEGo8Sj/",
+         "photos":[
+            "photos/Cafe plante.webp"
+         ],
+         "isPépite":false
+      },
+      {
+         "id":66,
+         "name":"Le Café du Bouffay",
+         "lat":47.21491791863044,
+         "lng":-1.5529043635667603,
+         "rating":"C",
+         "color":"#f4c280",
+         "pdlmc_price":"5,4€",
+         "description":"Le Café du Bouffay est le dernier bar de la place Bouffay que l'on note ! Comme ses voisins, sa situation lui permet de proposer une immense terrasse au soleil. ☀️ L'intérieur est lui beaucoup",
+         "ig_link":"https://www.instagram.com/nantes_en_180_bars/p/C2h-XLeN_f4/",
+         "photos":[
+            "photos/Cafe du bouffay.webp"
+         ],
+         "isPépite":false,
+         "types": ["terrasse-au-soleil"]
+      },
+      {
+         "id":67,
+         "name":"Le café du cinéma",
+         "lat":47.216752968284396,
+         "lng":-1.5514179170772786,
+         "rating":"B",
+         "color":"#b5dabe",
+         "pdlmc_price":"3,5€",
+         "description":"Le Café du Cinéma se situe le long de la rue de Strasbourg sur une petite place toute mignonne et à côté du cinématographe (d'où le nom du bar). 🎬 On aime beaucoup l'atmosphère qui existe sur cette",
+         "ig_link":"https://www.instagram.com/nantes_en_180_bars/p/C0KNt_-Na0Q/",
+         "photos":[
+            "photos/cafe du cinema.webp"
+         ],
+         "isPépite":false,
+         "types": ["flechettes"]
+      },
+      {
+         "id":68,
+         "name":"Le Café Landru",
+         "lat":47.214848130237506,
+         "lng":-1.5629087728991986,
+         "rating":"Pépite",
+         "color":"Pepite.png",
+         "pdlmc_price":"5€",
+         "description":"Le Café Landru c'est un peu la pépite qu'on aimerait garder pour soi un peu égoïstement mais comme on est pas comme ça, on te recommande à fond d'y faire un tour ! Situé à deux pas du Katorza",
+         "ig_link":"https://www.instagram.com/nantes_en_180_bars/p/C1cTVeQICer/",
+         "photos":[
+            "photos/Landru.webp"
+         ],
+         "isPépite":true
+      },
+      {
+         "id":69,
+         "name":"Le CafK",
+         "lat":47.217107795047426,
+         "lng":-1.5549485035842014,
+         "rating":"B",
+         "color":"#b5dabe",
+         "pdlmc_price":"5€",
+         "description":"Le CafK se situe au nord de Bouffay derrière Decré, proche de la rue St Léonard. Le cadre est top avec une belle petite terrasse et un intérieur chaleureux et spacieux ! 😎 La carte est assez",
+         "ig_link":"https://www.instagram.com/nantes_en_180_bars/p/CqYQXh_otZa/",
+         "photos":[
+            "photos/Cafk.webp"
+         ],
+         "isPépite":false
+      },
+      {
+         "id":70,
+         "name":"Le Cap's",
+         "lat":47.213711775732, 
+         "lng":-1.5535578875131983,
+         "rating":"C",
+         "color":"#f4c280",
+         "pdlmc_price":"3,9€",
+         "description":"Le Cap's est situé à un croisement du quartier Feydeau. Entouré de bars et de restaurants, c'est un endroit idéal si tu veux trouver une ambiance festive sur la terrasse ! 🥳 À la carte ? cocktails",
+         "ig_link":"https://www.instagram.com/nantes_en_180_bars/p/CkiIwuuMGwk/",
+         "photos":[
+            "photos/Caps.webp"
+         ],
+         "isPépite":false,
+         "types": ["flechettes"]
+      },
+      {
+         "id":73,
+         "name":"Le Chemin de Traverse",
+         "lat":47.21374962028178, 
+         "lng":-1.5537955259016956,
+         "rating":"A",
+         "color":"#306629",
+         "pdlmc_price":"4€",
+         "description":"Le chemin de traverse est un bar à bières présent au cœur de l'ancienne île Feydeau. Son emplacement est idéal avec une bonne ambiance extérieure. 🥳 Niveau carte, le choix de bières est top. 🍺",
+         "ig_link":"https://www.instagram.com/nantes_en_180_bars/p/Cn2RN9UIeYf/",
+         "photos":[
+            "photos/chemin de traverse.webp"
+         ],
+         "isPépite":false
+      },
+      {
+         "id":74,
+         "name":"Le Corneille",
+         "lat":47.21401618050631, 
+         "lng":-1.5625598198846216,
+         "rating":"C",
+         "color":"#f4c280",
+         "pdlmc_price":"7€",
+         "description":"Le Corneille est une adresse bien connue du quartier Graslin situé juste au dessus du Katorza. 🎬 Le bar a changé de propriétaire en 2025, on a donc décidé d’y refaire un tour !",
+         "ig_link":"https://www.instagram.com/nantes_en_180_bars/p/CmPDiCaIEo8/",
+         "photos":[
+            "photos/Corneille.webp"
+         ],
+         "isPépite":false,
+         "types": ["cocktail"]
+      },
+      {
+         "id":75,
+         "name":"Le Côté Plage",
+         "lat":47.2121423904604,
+         "lng":-1.556581403584452,
+         "rating":"B",
+         "color":"#b5dabe",
+         "pdlmc_price":"4€",
+         "description":"Le Côté Plage (Cotep pour les intimes) est un bar bien connu de la jeunesse nantaise ! C'est un des bars étudiants favoris des BDE. Tu y trouveras logiquement une population assez jeune et étudiante.",
+         "ig_link":"https://www.instagram.com/nantes_en_180_bars/p/CrL9m-tImW1/",
+         "photos":[
+            "photos/Cote plage.webp"
+         ],
+         "isPépite":false,
+         "types": ["terrasse-au-soleil", "flechettes"]
+      },
+      {
+         "id":76,
+         "name":"Le Coup du Lapin",
+         "lat":47.21162711973027,
+         "lng":-1.5495876324200915,
+         "rating":"B",
+         "color":"#b5dabe",
+         "pdlmc_price":"5,8€",
+         "description":"Le Coup du Lapin est un bar très chaleureux situé dans le quartier Madeleine. On s'y sent vite très bien et on y a passé un très bon moment ! 🤩 On sent également que c'est un bar avec une clientèle",
+         "ig_link":"https://www.instagram.com/nantes_en_180_bars/p/C4vyDk7hy2X/",
+         "photos":[
+            "photos/Coup du lapin.webp"
+         ],
+         "isPépite":false
+      },
+      {
+         "id":77,
+         "name":"Le Croque Bedaine",
+         "lat":47.21891042094954,
+         "lng":-1.5610071477622474,
+         "rating":"A",
+         "color":"#306629",
+         "pdlmc_price":"6,5€",
+         "description":"Le Croque Bedaine est un bar à bières et croques situé pas loin de la Tour de Bretagne. 🏢 À l'intérieur, service à table et ambiance très chaleureuse, on s'y sent bien ! 🤗 À la carte, un joli",
+         "ig_link":"https://www.instagram.com/nantes_en_180_bars/p/Cm9shotoQRA/",
+         "photos":[
+            "photos/Croque bedaine.webp"
+         ],
+         "isPépite":false
+      },
+      {
+         "id":78,
+         "name":"Le Ferrailleur",
+         "lat":47.20053241015678,
+         "lng":-1.5737405664465345,
+         "rating":"A",
+         "color":"#306629",
+         "pdlmc_price":"6,5€",
+         "description":"Le Ferrailleur est un bar mais aussi une salle de concerts rock, metal, pop, rap + after électro avec des dj sets jusqu'à 4h le tout sur le quai des Antilles 🕺",
+         "ig_link":"https://www.instagram.com/nantes_en_180_bars/p/C1C1fw8quIo/",
+         "photos":[
+            "photos/Ferrailleur.webp"
+         ],
+         "isPépite":false,
+         "types": ["terrasse-au-soleil"]
+      },
+      {
+         "id":79,
+         "name":"Le Flesselles",
+         "lat":47.214433736329084,
+         "lng":-1.55472810543379,
+         "rating":"C",
+         "color":"#f4c280",
+         "pdlmc_price":"5,4€",
+         "description":"Le Café Flesselles se situe en plein commerce (croisée des trams). 🚈 Avantage ou non du lieu, la terrasse est grande, mais assez impersonnelle. L'intérieur, lui, est beaucoup plus chaleureux et",
+         "ig_link":"https://www.instagram.com/nantes_en_180_bars/p/C17nX9ioJCq/",
+         "photos":[
+            "photos/cafe flesselles.webp"
+         ],
+         "isPépite":false
+      },
+      {
+         "id":80,
+         "name":"Le Grabuge",
+         "lat":47.22075303225287,
+         "lng":-1.548840424754336,
+         "rating":"A",
+         "color":"#306629",
+         "pdlmc_price":"5,8€",
+         "description":"On ne quitte plus la rue Maréchal Joffre et on te présente aujourd’hui le Grabuge ! C’est vraiment un des très bon spot de l’été maintenant que la rue est full piétonne ! 👌",
+         "ig_link":"https://www.instagram.com/nantes_en_180_bars/p/DL5PgGWswKD/",
+         "photos":[
+            "photos/Grabuge.webp"
+         ],
+         "isPépite":false,
+         "types": ["flechettes"]
+      },
+      {
+         "id":81,
+         "name":"Le Graslin de Folie",
+         "lat":47.21370406396613,
+         "lng":-1.5631588035844193,
+         "rating":"C",
+         "color":"#f4c280",
+         "pdlmc_price":"5€",
+         "description":"Le Graslin de folie se situe à 10 mètres de la place de la place Graslin (logique) au tout début de la rue Racine. Emplacement idéal pour un verre en terrasse dans ce beau quartier nantais avec vue",
+         "ig_link":"https://www.instagram.com/nantes_en_180_bars/p/Cu2WuG5IsXm/",
+         "photos":[
+            "photos/Graslin de folie.webp"
+         ],
+         "isPépite":false
+      },
+      {
+         "id":82,
+         "name":"Le Joffre",
+         "lat":47.220427694332436,
+         "lng":-1.5490711170770015,
+         "rating":"B",
+         "color":"#b5dabe",
+         "pdlmc_price":"6€",
+         "description":"Le Bar Le Joffre, situé rue Joffre (original!), est tenu par une figure des commerçants de la rue. Ne cherche pas la carte des boissons, elle n'existe pas. 😅 Le patron derrière le bar te ",
+         "ig_link":"https://www.instagram.com/nantes_en_180_bars/p/CncWfzjo8Z3/",
+         "photos":[
+            "photos/Joffre.webp"
+         ],
+         "isPépite":false
+      },
+      {
+         "id":83,
+         "name":"Le Kraken",
+         "lat":47.21763187709814,
+         "lng":-1.5556529397013075,
+         "rating":"A",
+         "color":"#306629",
+         "pdlmc_price":"5,5€",
+         "description":"Le Kraken est un nouveau bar qui a ouvert il y a quasi pile un an ! Situé à l'extrémité nord de Bouffay, le bar est assez grand, très chaleureux et propose plusieurs espaces, parfait pour venir",
+         "ig_link":"https://www.instagram.com/nantes_en_180_bars/p/DRh5SYhjUtv/",
+         "photos":[
+            "photos/Kraken.webp"
+         ],
+         "isPépite":false,
+         "types": ["flechettes"]
+      },
+      {
+         "id":84,
+         "name":"Le LABO",
+         "lat":47.21933033345641,
+         "lng":-1.5550652941357128,
+         "rating":"B",
+         "color":"#b5dabe",
+         "pdlmc_price":"5€",
+         "description":"Le LABO est sûrement un des bars de Nantes avec le plus de choix de rhums et cocktails différents ! La carte des rhums est immense mais on y trouve aussi un petit choix de bières et de vins.",
+         "ig_link":"https://www.instagram.com/nantes_en_180_bars/p/Cw29DYbu36g/",
+         "photos":[
+            "photos/Labo.webp"
+         ],
+         "isPépite":false,
+         "types": ["cocktail"]
+      },
+      {
+         "id":85,
+         "name":"Le Lieu Unique",
+         "lat":47.21546499610793,
+         "lng":-1.5457130035842352,
+         "rating":"A",
+         "color":"#306629",
+         "pdlmc_price":"4€",
+         "description":"Le LU (Lieu Unique) est un lieu culturel situé dans l'ancienne biscuiterie (biscuits LU) qui propose une librairie, des expositions d'art, des spectacles, mais aussi un restaurant et un bar",
+         "ig_link":"https://www.instagram.com/nantes_en_180_bars/p/CwpUePKI_bb/",
+         "photos":[
+            "photos/Lu.webp"
+         ],
+         "isPépite":false,
+         "types": ["terrasse-au-soleil", "bar-dansant"],
+"fermeture": "L: 11h-20h ; MM: 11h-00h ; J: 11h-02h ; VS: 11h-03h ; D: 15h-20h"
+      },
+      {
+         "id":86,
+         "name":"Le Lutin de travers",
+         "lat":47.217414366830155,
+         "lng":-1.552697903584147,
+         "rating":"Pépite",
+         "color":"Pepite.png",
+         "pdlmc_price":"4,9€",
+         "description":"Le Lutin de Travers se situe à l’extrémité de Bouffay, tout près de la rue de Strasbourg et c’est une pépite !! 🔥 Le Lutin de Travers, c’est un bar de quartier, assez populaire où on se sent vit",
+         "ig_link":"https://www.instagram.com/nantes_en_180_bars/p/DDXpU9vxvsQ/",
+         "photos":[
+            "photos/Lutin de travers.webp"
+         ],
+         "isPépite":true
+      },
+      {
+         "id":87,
+         "name":"Le Mac",
+         "lat":47.21318990206925, 
+         "lng":-1.5605737704714542,
+         "rating":"Pépite",
+         "color":"Pepite.png",
+         "pdlmc_price":"5€",
+         "description":"Le Mac(anciennement le Macallan) est un pub situé tout proche de la place Graslin et du passage Pommeraye, et c’est la pépite de Get ! 😍 On adore aller dans ce bar car il y a une super ",
+         "ig_link":"https://www.instagram.com/nantes_en_180_bars/p/DI9NjZnMkaS/",
+         "photos":[
+            "photos/Mac.webp"
+         ],
+         "isPépite":true,
+         "types": ["pub", "flechettes"]
+      },
+      {
+         "id":88,
+         "name":"Le Maestro",
+         "lat":47.218960908787544,
+         "lng":-1.5576323612553096,
+         "rating":"B",
+         "color":"#b5dabe",
+         "pdlmc_price":"5,5€",
+         "description":"Le Maestro est un des bars à Mojito les plus connus de Nantes ! 🍹 Cela pour la variété des mojitos proposés et leurs prix : 3,90€ le mojito, surement le mojito le moins cher de Nantes ! 💸",
+         "ig_link":"https://www.instagram.com/nantes_en_180_bars/p/C5qp7NxIzoK/",
+         "photos":[
+            "photos/Maestro.webp"
+         ],
+         "isPépite":false,
+         "types": ["cocktail"]
+      },
+      {
+         "id":89,
+         "name":"Le Médusa",
+         "lat":47.21357658867473,
+         "lng":-1.5535097787296361,
+         "rating":"A",
+         "color":"#306629",
+         "pdlmc_price":"6€",
+         "description":"Le Medusa est un bar à cocktail qui a ouvert assez récemment dans le quartier Feydeau ! 🍸 On est plutôt habitué à trouver des bars à cocktails vers Graslin donc c'est sympa d'avoir",
+         "ig_link":"https://www.instagram.com/nantes_en_180_bars/p/C3Nugfzoahy/",
+         "photos":[
+            "photos/Medusa.webp"
+         ],
+         "isPépite":false,
+         "types": ["cocktail"]
+      },
+      {
+         "id":90,
+         "name":"Le Mess",
+         "lat":47.21950864917493,
+         "lng":-1.5550089612553282,
+         "rating":"A",
+         "color":"#306629",
+         "pdlmc_price":"5,5€",
+         "description":"Le Mess (Mélodie En Sous Sol) est le second bar de la rue Léon Blum que nous testons. Situé juste à côté du Labo, le Mess possède une terrasse assez identique à son voisin, un spot tranquille ",
+         "ig_link":"https://www.instagram.com/nantes_en_180_bars/p/Cxs5xc4IZcZ/",
+         "photos":[
+            "photos/Mess.webp"
+         ],
+         "isPépite":false,
+         "types": ["bar-dansant", "flechettes"],
+"fermeture": "L : Fermé ; MM : 17h30-00h ; JVS : 17h30-04h ; D: Fermé"
+      },
+      {
+         "id":91,
+         "name":"Le Molière",
+         "lat":47.21338400376457, 
+         "lng":-1.5625522200249289,
+         "rating":"D",
+         "color":"#d66643",
+         "pdlmc_price":"8€",
+         "description":"Le Molière est une grande brasserie / bar situé place Graslin ! Ouvert toute la journée, elle accueille du monde de 8h à 02h du lundi ou samedi. 🙂 Le bar est idéalement situé avec une grande",
+         "ig_link":"https://www.instagram.com/nantes_en_180_bars/p/DQHw7UAjcji/",
+         "photos":[
+            "photos/Moliere.webp"
+         ],
+         "isPépite":false
+      },
+      {
+         "id":92,
+         "name":"Le Narcisse",
+         "lat":47.2165889418135,
+         "lng":-1.5587629505150853,
+         "rating":"Pépite",
+         "color":"Pepite.png",
+         "pdlmc_price":"6€",
+         "description":"Le Narcisse est un bar situé pas loin de l'arrêt Bretagne et des deux petits ponts qui longent la ligne de tram et c'est une pépite du groupe ! 🤩 On aime beaucoup les évènements organisés",
+         "ig_link":"https://www.instagram.com/nantes_en_180_bars/p/C8heqUXIbXO/",
+         "photos":[
+            "photos/Narcisse.webp"
+         ],
+         "isPépite":true,
+         "types": ["flechettes"]
+      },
+      {
+         "id":93,
+         "name":"Le Nomad",
+         "lat":47.2132910958283, 
+         "lng":-1.560392595979113,
+         "rating":"C",
+         "color":"#f4c280",
+         "pdlmc_price":"6,5€",
+         "description":"Le Nomad se situe à l'angle de la rue Santeuil tout près du Passage Pommeray ✨ C'est un joli bar avec un intérieur assez fancy (peut-être un petit peu trop à notre goût). La terrasse est très cool ",
+         "ig_link":"https://www.instagram.com/nantes_en_180_bars/p/Cx8MOJhIyXi/",
+         "photos":[
+            "photos/Nomad.webp"
+         ],
+         "isPépite":false,
+         "types": ["bar-dansant", "flechettes"],
+"fermeture": "L : Fermé ; MMJV : 17h30-40h ; S : 16h-04h ; D: Fermé"
+      },
+      {
+         "id":94,
+         "name":"Le Perrok'",
+         "lat":47.21506148250982, 
+         "lng":-1.5529305292501134,
+         "rating":"A",
+         "color":"#306629",
+         "pdlmc_price":"4€",
+         "description":"Voici notre bar préféré de la place Bouffay, pour le moment en tout cas ! Situé dans un angle de la place, Le Perrok' possède une super terrasse et un intérieur sympa et chaleureux ! 🤩",
+         "ig_link":"https://www.instagram.com/nantes_en_180_bars/p/CyJbui7t0FC/",
+         "photos":[
+            "photos/Perrok.webp"
+         ],
+         "isPépite":false,
+         "types": ["flechettes"]
+      },
+      {
+         "id":95,
+         "name":"Le Petit Baigneur",
+         "lat":47.215921782233444,
+         "lng":-1.5438469612555081,
+         "rating":"Pépite",
+         "color":"Pepite.png",
+         "pdlmc_price":"6€",
+         "description":"On était de retour au Petit Baigneur à l’occasion du feu d’artifice et c’était l’occasion de vous repartager cette pépite de groupe ! 🙃  Le Petit Baigneur est une guinguette flottante",
+         "ig_link":"https://www.instagram.com/nantes_en_180_bars/p/CvaTTcmopW2/",
+         "photos":[
+            "photos/Petit baigneur.webp"
+         ],
+         "isPépite":true,
+         "types": ["terrasse-au-soleil", "guinguette"]
+      },
+      {
+         "id":96,
+         "name":"Le Petit Nakama",
+         "lat":47.206686059627934,
+         "lng":-1.556392780581968,
+         "rating":"B",
+         "color":"#b5dabe",
+         "pdlmc_price":"5€",
+         "description":"Bienvenue dans un vrai izakaya (un bar japonais) en plein Nantes ! Ça se passe au Petit Nakama dans le quartier République sur l’île de Nantes. De la carte à la décoration le bar t’offre un",
+         "ig_link":"https://www.instagram.com/nantes_en_180_bars/p/DPUGTzVDcvj/",
+         "photos":[
+            "photos/Petit nakama.webp"
+         ],
+         "isPépite":false
+      },
+      {
+         "id":97,
+         "name":"Le Poulp'",
+         "lat":47.21400640066239,
+         "lng":-1.553507088679267,
+         "rating":"B",
+         "color":"#b5dabe",
+         "pdlmc_price":"4€",
+         "description":"Le Poulp' se situe entre deux quartiers animés de Nantes, Bouffay et Feydeau. Sa grande terrasse accueillante (mais proche du tram) mettra tout le monde d’accord quand il s'agit de profiter",
+         "ig_link":"https://www.instagram.com/nantes_en_180_bars/p/CjLjdJkIGkF/",
+         "photos":[
+            "photos/Poulp.webp"
+         ],
+         "isPépite":false,
+         "types": ["terrasse-au-soleil", "flechettes"]
+      },
+      {
+         "id":98,
+         "name":"Le Rafiot",
+         "lat":47.21510703088502, 
+         "lng":-1.5570263649799976,
+         "rating":"C",
+         "color":"#f4c280",
+         "pdlmc_price":"4€",
+         "description":"On continue notre tour des bars de Nantes et on on vous présente aujourd’hui le Rafiot , un bar pas très connu situé très proche de la Place Royale. Le Rafiot c’est un bar un peu dans son ",
+         "ig_link":"https://www.instagram.com/nantes_en_180_bars/p/DT8QSiTjThN/?__d=1",
+         "photos":[
+            "photos/Rafiot.webp"
+         ],
+         "isPépite":false
+      },
+      {
+         "id":99,
+         "name":"Le Royal Café",
+         "lat":47.21529865399552,
+         "lng":-1.5584588612555623,
+         "rating":"B",
+         "color":"#b5dabe",
+         "pdlmc_price":"3,9€",
+         "description":"Le Royal Café se situe juste derrière la Place Royale dans le coeur du centre ville de Nantes. C'est un bar avec une terrasse agréable et avec pas mal de place : un super spot ! 🤝 L'intérieur est",
+         "ig_link":"https://www.instagram.com/nantes_en_180_bars/p/DBrVhO1qkRp/",
+         "photos":[
+            "photos/Royal cafe.webp"
+         ],
+         "isPépite":false
+      },
+      {
+         "id":100,
+         "name":"Le Saint Georges",
+         "lat":47.25341966992537,
+         "lng":-1.5240703747463447,
+         "rating":"C",
+         "color":"#f4c280",
+         "pdlmc_price":"6,5€",
+         "description":"On sort du centre-ville pour se retrouver juste à côté du stade de la Beaujoire et plus précisément au bar Le Saint Georges ! 🏟️ Le Saint Georges, c'est pour nous le bar où aller prendre",
+         "ig_link":"https://www.instagram.com/nantes_en_180_bars/p/DAd7egXotMW/",
+         "photos":[
+            "photos/Saint georges.webp"
+         ],
+         "isPépite":false
+      },
+      {
+         "id":101,
+         "name":"Le Saint Mihiel",
+         "lat":47.22314084068875,
+         "lng":-1.5535260035838199,
+         "rating":"B",
+         "color":"#b5dabe",
+         "pdlmc_price":"5,5€",
+         "description":"On est de retour sur les bords de l’Erdre pour vous présenter le Saint-Mihiel qui comme son nom l’indique se situe juste en face l’arrêt de tram Saint-Mihiel. 🤓 La terrasse du bar est assez grande ",
+         "ig_link":"https://www.instagram.com/nantes_en_180_bars/p/DOeIYsGDezd/",
+         "photos":[
+            "photos/Saint mihiel.webp"
+         ],
+         "isPépite":false,
+         "types": ["terrasse-au-soleil"]
+      },
+      {
+         "id":102,
+         "name":"Le Sauvage",
+         "lat":47.21942088849697,
+         "lng":-1.5548676035840825,
+         "rating":"A",
+         "color":"#306629",
+         "pdlmc_price":"4€",
+         "description":"Petit troquet nantais, le Sauvage est une adresse à retenir pour se retrouver entre amis. Ouvert depuis plus de 2 ans, le bar est fréquenté par des habitués et des personnes curieuses d’y boire",
+         "ig_link":"https://www.instagram.com/nantes_en_180_bars/p/DP4NkvKDUQf/",
+         "photos":[
+            "photos/Sauvage.webp"
+         ],
+         "isPépite":false
+      },
+      {
+         "id":103,
+         "name":"Le Shaft",
+         "lat":47.2152464450429, 
+         "lng":-1.5523421965101019,
+         "rating":"A",
+         "color":"#306629",
+         "pdlmc_price":"3,5€",
+         "description":"Le Shaft est un de nos QG, vous nous y croiserez souvent ! 🙈 Ce bar est reconnu pour ses tarifs très attrayants et notamment la pinte de Burger à 3€. 💶 (la pinte est passée à 3,5€, fuck l'inflation)",
+         "ig_link":"https://www.instagram.com/nantes_en_180_bars/p/ClUGjRvIyCI/",
+         "photos":[
+            "photos/Shaft.webp"
+         ],
+         "isPépite":false,
+         "types": ["flechettes"]
+      },
+      {
+         "id":104,
+         "name":"Le Singe en hiver",
+         "lat":47.21718721660044,
+         "lng":-1.5516389229063128,
+         "rating":"B",
+         "color":"#b5dabe",
+         "pdlmc_price":"5,2€",
+         "description":"Le Singe en hiver est un bar d'habitués situé dans une petite rue près de la Cathédrale. ⛪️ On a vraiment l'impression d'être dans un bar de quartier à l'ancienne plutôt que dans un bar d'étudiant",
+         "ig_link":"https://www.instagram.com/nantes_en_180_bars/p/CtKO9sjo-g8/",
+         "photos":[
+            "photos/Singe en hiver.webp"
+         ],
+         "isPépite":false
+      },
+      {
+         "id":105,
+         "name":"le Sur Mesure",
+         "lat":47.21248282169865,
+         "lng":-1.5602397978021096,
+         "rating":"B",
+         "color":"#b5dabe",
+         "pdlmc_price":"4,5€",
+         "description":"Le Sur-Mesure est situé dans une petit rue de Bouffay en face la Bodega. 🍻 La terrasse n'est énorme même si elle s'étend sur la longueur mais l'intérieur est plus grand et spacieux ",
+         "ig_link":"https://www.instagram.com/nantes_en_180_bars/p/C3f5vM7ozRi/",
+         "photos":[
+            "photos/Sur mesure.webp"
+         ],
+         "isPépite":false,
+         "types": ["flechettes"]
+      },
+      {
+         "id":106,
+         "name":"Le Sur Mesure Graslin",
+         "lat":47.21234237031499, 
+         "lng":-1.560272200135024,
+         "rating":"C",
+         "color":"#f4c280",
+         "pdlmc_price":"4,5€",
+         "description":"Le Sur Mesure est un bar à bière, un vrai ! 🍺 Tu trouveras forcément une bière à ton goût et à un prix raisonnable. On y trouve aussi un petit peu de vin ainsi que du fromage et du saucisson",
+         "ig_link":"https://www.instagram.com/nantes_en_180_bars/p/Cj55IIIszG7/",
+         "photos":[
+            "photos/Sur mesure graslin.webp"
+         ],
+         "isPépite":false
+      },
+      {
+         "id":107,
+         "name":"L'Embuscade",
+         "lat":47.21340666243957, 
+         "lng":-1.553122167757727,
+         "rating":"C",
+         "color":"#f4c280",
+         "pdlmc_price":"4€",
+         "description":"L'embuscade est un bar bien connu de Nantes. Tu y retrouveras plutôt une population étudiante mais pas que ! La terrasse ainsi que l'intérieur du bar sont assez spacieux ce qui est top si",
+         "ig_link":"https://www.instagram.com/nantes_en_180_bars/p/CkiIwuuMGwk/",
+         "photos":[
+            "photos/Embuscade.webp"
+         ],
+         "isPépite":false,
+         "types": ["terrasse-au-soleil", "flechettes"]
+      },
+      {
+         "id":108,
+         "name":"Les Berthom",
+         "lat":47.213484356714474,
+         "lng":-1.554442513053728,
+         "rating":"C",
+         "color":"#f4c280",
+         "pdlmc_price":"5€",
+         "description":"Les Berthom, c'est un bar à bière présent dans de nombreuses grandes villes en France ! 🍺 À Nantes, le Berthom se situe en plein Commerce, le bar est très grand à l'intérieur, l'espace parfait pour",
+         "ig_link":"https://www.instagram.com/nantes_en_180_bars/p/C4Yo1_esA4X/",
+         "photos":[
+            "photos/Berthom.webp"
+         ],
+         "isPépite":false,
+         "types": ["pub", "flechettes"]
+      },
+      {
+         "id":109,
+         "name":"Les Brassés",
+         "lat":47.21595056757182,
+         "lng":-1.5339422941444105,
+         "rating":"C",
+         "color":"#f4c280",
+         "pdlmc_price":"7€",
+         "description":"Les Brassés, c'est un restaurant et une micro-brasserie situé dans le quartier Gare Sud. À la carte, tu retrouveras donc des bières artisanales bio et nantaises que le lieu brasse même ! 🍺",
+         "ig_link":"https://www.instagram.com/nantes_en_180_bars/p/DA6P-s7PFMP/",
+         "photos":[
+            "photos/Brasses.webp"
+         ],
+         "isPépite":false
+      },
+      {
+         "id":111,
+         "name":"Les Fleurs du Malt",
+         "lat":47.21724555866589,
+         "lng":-1.5454486928547784,
+         "rating":"B",
+         "color":"#b5dabe",
+         "pdlmc_price":"4,5€",
+         "description":"Les Fleurs du Malt est un bar à bières situé entre le château et la gare. 🌾🚄 Comme son nom l'indique, le bar propose une grande carte de bières : près d'une trentaine ! 🍺 Il y en a vraiment pour",
+         "ig_link":"https://www.instagram.com/nantes_en_180_bars/p/C_nNAveovPT/",
+         "photos":[
+            "photos/Fleurs du malt.webp"
+         ],
+         "isPépite":false,
+         "types": ["flechettes"]
+      },
+      {
+         "id":112,
+         "name":"Les Petits Pavés",
+         "lat":47.22425637919301,
+         "lng":-1.5644127612550616,
+         "rating":"Pépite",
+         "color":"Pepite.png",
+         "pdlmc_price":"5,8€",
+         "description":"Nouvelle pépite dans la team 180B ! ⭐️Bienvenue au bistro les Petits Pavés, situé tout près de la place Viarme ! Les Petits Pavés c’est un bar de quartier chaleureux où on peut se poser tranqui",
+         "ig_link":"https://www.instagram.com/nantes_en_180_bars/p/DMYJDQTs9M4/",
+         "photos":[
+            "photos/Petits paves.webp"
+         ],
+         "isPépite":true
+      },
+      {
+         "id":113,
+         "name":"L'établi",
+         "lat":47.21532438459201,
+         "lng":-1.559794324756532,
+         "rating":"A",
+         "color":"#306629",
+         "pdlmc_price":"3,5€",
+         "description":"On te présente aujourd’hui un ovni dans le paysage des bars nantais ! 👽 Bienvenue à l'Etabli, bar associatif situé 50 mètres derrière la place Royale. 🤗 L’Établi, c’est donc un bar",
+         "ig_link":"https://www.instagram.com/nantes_en_180_bars/p/DGlg5sjslWs/",
+         "photos":[
+            "photos/Etabli.webp"
+         ],
+         "isPépite":false
+      },
+      {
+         "id":114,
+         "name":"Levrette Café",
+         "lat":47.20684749006296,
+         "lng":-1.5688039882422153,
+         "rating":"A",
+         "color":"#306629",
+         "pdlmc_price":"6€",
+         "description":"On profite qu’il fasse encore beau à Nantes pour faire un tour dans une des péniches les plus sympas de la ville : le Levrette Café ! ⛵️ Le Levrette Café se situe sur une grande péniche sur",
+         "ig_link":"https://www.instagram.com/nantes_en_180_bars/p/DOwK0cKDQUP/",
+         "photos":[
+            "photos/Levrette.webp"
+         ],
+         "isPépite":false,
+         "types": ["terrasse-au-soleil"]
+      },
+      {
+         "id":115,
+         "name":"Lili Big Café",
+         "lat":47.212740166391875,
+         "lng":-1.5571922517437762,
+         "rating":"A",
+         "color":"#306629",
+         "pdlmc_price":"3,9€",
+         "description":"Le Lili Big Café est un bar encore nouveau situé en face de la place du Commerce. 📍 L'emplacement est vraiment parfait ! La terrasse est assez grande et en plein soleil une grande partie de la jour",
+         "ig_link":"https://www.instagram.com/nantes_en_180_bars/p/C94dcSWNDy3/",
+         "photos":[
+            "photos/Lili big cafe.webp"
+         ],
+         "isPépite":false,
+         "types": ["terrasse-au-soleil", "flechettes"]
+      },
+      {
+         "id":116,
+         "name":"L'indécis",
+         "lat":47.212031666642716,
+         "lng":-1.561943303584435,
+         "rating":"A",
+         "color":"#306629",
+         "pdlmc_price":"6€",
+         "description":"L'Indécis est un bar à jeux situé juste au-dessus de Médiathèque, pas loin du cours Cambronne. La terrasse du bar est assez petite, mais permet d'y poser quelques tables. Pour autant, ce n'est pas ",
+         "ig_link":"https://www.instagram.com/nantes_en_180_bars/p/DEsZUHFuGya/",
+         "photos":[
+            "photos/Indecis.webp"
+         ],
+         "isPépite":false,
+         "types": ["jeux"]
+      },
+      {
+         "id":117,
+         "name":"Little Atlantique Brewery",
+         "lat":47.19630789091908,
+         "lng":-1.589011701735943,
+         "rating":"Pépite",
+         "color":"Pepite.png",
+         "pdlmc_price":"6,5€",
+         "description":"Le LAB est une grande brasserie nantaise qui se trouve à Chantenay, au bord de Loire, face au village de Trentemoult. 🌈 Hors du centre-ville, ce bar est accessible de différentes manières",
+         "ig_link":"https://www.instagram.com/nantes_en_180_bars/p/Cl1kcTmI3oN/",
+         "photos":[
+            "photos/Lab.webp"
+         ],
+         "isPépite":true,
+         "types": ["terrasse-au-soleil", "flechettes"]
+      },
+      {
+         "id":118,
+         "name":"Live Bar",
+         "lat":47.21559337038212,
+         "lng":-1.5505371778767283,
+         "rating":"Pépite",
+         "color":"Pepite.png",
+         "pdlmc_price":"5,4€",
+         "description":"Le Live Bar se trouve en face du château des ducs de Bretagne 🏰 Une super situation, une belle terrasse ombragée au calme et un intérieur plus intimiste et chaleureux avec une petite scène ! 🎤",
+         "ig_link":"https://www.instagram.com/nantes_en_180_bars/p/CjqSDizo_Hm/",
+         "photos":[
+            "photos/Live bar.webp"
+         ],
+         "isPépite":true,
+         "types": ["flechettes"]
+      },
+      {
+         "id":119,
+         "name":"Louis Blanc",
+         "lat":47.20725397253354,
+         "lng":-1.5552187025335396,
+         "rating":"A",
+         "color":"#306629",
+         "pdlmc_price":"3,9€",
+         "description":" Bar bien connu de l'île Nantes à deux pas du CHU et du centre ville 🏨 Un choix de bières (4,5euros la moins chère) et une carte de cocktails assez large et à prix abordables 💶",
+         "ig_link":"https://www.instagram.com/nantes_en_180_bars/p/CkOYopjoWA1/",
+         "photos":[
+            "photos/Louis blanc.webp"
+         ],
+         "isPépite":false,
+         "types": ["terrasse-au-soleil"]
+      },
+      {
+         "id":120,
+         "name":"L'Ubik",
+         "lat":47.221473417947394,
+         "lng":-1.5476185035839174,
+         "rating":"B",
+         "color":"#b5dabe",
+         "pdlmc_price":"5,5€",
+         "description":"On continue de cocher les cases des différents bars de la rue Joffre avec L'Ubik ! L’Ubik, c’est un bar qui fait aussi salle de concert et de spectacle à l’étage ! 🎸 Situé au bout de la rue",
+         "ig_link":"https://www.instagram.com/nantes_en_180_bars/p/DRZ4TrwDVl1/",
+         "photos":[
+            "photos/Ubik.webp"
+         ],
+         "isPépite":false,
+         "types": ["flechettes"]
+      },
+      {
+         "id":121,
+         "name":"Magnum",
+         "lat":47.20499042731627,
+         "lng":-1.5599262324205183,
+         "rating":"B",
+         "color":"#b5dabe",
+         "pdlmc_price":"5€",
+         "description":"Magnum c’est un nouveau bistrot ouvert il y a moins d’un an sur l’ile de Nantes, pas loin du quartier République. Un endroit convivial avec une ambiance très chaleureuse, on te raconte ",
+         "ig_link":"https://www.instagram.com/nantes_en_180_bars/p/DPtk35ajfP9/",
+         "photos":[
+            "photos/Magnum.webp"
+         ],
+         "isPépite":false
+      },
+      {
+         "id":122,
+         "name":"Maison Café",
+         "lat":47.22032950767532,
+         "lng":-1.5495575531459127,
+         "rating":"A",
+         "color":"#306629",
+         "pdlmc_price":"5,5€",
+         "description":"La maison café propose un concept assez unique à Nantes. En effet, le bar est une maison ! 🏠 Tu peux donc boire ta bière les pieds dans la baignoire, siroter ton cocktail dans la cuisine ou ",
+         "ig_link":"https://www.instagram.com/nantes_en_180_bars/p/CrwCkSLOAmf/",
+         "photos":[
+            "photos/Maison cafe.webp"
+         ],
+         "isPépite":false,
+         "types": ["flechettes"]
+      },
+      {
+         "id":123,
+         "name":"Mojo",
+         "lat":47.22042157894652,
+         "lng":-1.548758532815112,
+         "rating":"A",
+         "color":"#306629",
+         "pdlmc_price":"6€",
+         "description":"On est de retour rue Maréchal Joffre ! La rue est devenue piétonne toute l’année, une bonne raison de passer au Mojo ! 👌Le Mojo, c’est un bar qui vit énormément : djsets, concerts",
+         "ig_link":"https://www.instagram.com/nantes_en_180_bars/p/DLe2iszMuLl/",
+         "photos":[
+            "photos/Mojo.webp"
+         ],
+         "isPépite":false,
+         "types": ["flechettes"]
+      },
+      {
+         "id":124,
+         "name":"Monsieur Machin",
+         "lat":47.217001370162514,
+         "lng":-1.5554338305703865,
+         "rating":"A",
+         "color":"#306629",
+         "pdlmc_price":"5,5€",
+         "description":"Le Monsieur Machin est situé dans la très chouette rue Saint-Léonard ! Comme pour les autres bars de ce quartier, c'est très agréable d'y prendre un verre en terrasse ! ☀️",
+         "ig_link":"https://www.instagram.com/nantes_en_180_bars/p/C46KEh6OK-U/",
+         "photos":[
+            "photos/M machin.webp"
+         ],
+         "isPépite":false,
+         "types": ["flechettes"]
+      },
+      {
+         "id":125,
+         "name":"Muscadothèque",
+         "lat":47.209916585416494, 
+         "lng":-1.5647533673297978,
+         "rating":"B",
+         "color":"#b5dabe",
+         "pdlmc_price":"6€",
+         "description":"La Muscadotheque c’est la première cave 100% dédiée au vins du vignoble nantais et tu n’y trouves pas que du muscadet, au contraire ! 🍷Le bar est situé Quai de la Fosse juste à côté du Micro C",
+         "ig_link":"https://www.instagram.com/nantes_en_180_bars/p/DQZufjYDe1Z/",
+         "photos":[
+            "photos/Muscadotheque.webp"
+         ],
+         "isPépite":false
+      },
+      {
+         "id":126,
+         "name":"Mystère Impro Club",
+         "lat":47.216618129455476,
+         "lng":-1.5594468477624213,
+         "rating":"A",
+         "color":"#306629",
+         "pdlmc_price":"6,5€",
+         "description":"Le premier bar dédié à l’Improvisation de France se trouve à Nantes et on l’a testé ! 🎭 On t’emmène au @mystere.improclub , un lieu unique en son genre, situé juste à côté de la Tour de Bretagne",
+         "ig_link":"https://www.instagram.com/nantes_en_180_bars/p/DRAT5XUjXR-/",
+         "photos":[
+            "photos/Impro club.webp"
+         ],
+         "isPépite":false
+      },
+      {
+         "id":127,
+         "name":"Night L / Tb bar",
+         "lat":47.214876105265965, 
+         "lng":-1.551967616236659,
+         "rating":"D",
+         "color":"#d66643",
+         "pdlmc_price":"4,5€",
+         "description":"Le TB Bar est un bar situé à Commerce entre le Ruin Bar et le HoPoPop. On a pu prendre quelques verres en terrasse dans une ambiance sans plus. Le bar propose des bières, cocktails, un petit peu",
+         "ig_link":"https://www.instagram.com/nantes_en_180_bars/p/Cr_ZeYlIr93/",
+         "photos":[
+            "photos/Night l.webp"
+         ],
+         "isPépite":false,
+         "types": ["terrasse-au-soleil", "flechettes"]
+      },
+      {
+         "id":128,
+         "name":"OHM Town",
+         "lat":47.19783925951381,
+         "lng":-1.5891248035853367,
+         "rating":"B",
+         "color":"#b5dabe",
+         "pdlmc_price":"6€",
+         "description":"Le OHM Town est un nouveau bar ouvert depuis le printemps dernier et situé à Chantenay juste à côté du Macadam ! 🕺 Position un peu loin du centre-ville, mais parfaite en before ou en after",
+         "ig_link":"https://www.instagram.com/nantes_en_180_bars/p/CvIbLYmIh-G/",
+         "photos":[
+            "photos/Ohm.webp"
+         ],
+         "isPépite":false,
+         "types": ["terrasse-au-soleil", "bar-dansant"],
+"fermeture": "LMMJ: 18h–23h ; VS: 18h–03h ; D: 15h–22h"
+      },
+      {
+         "id":129,
+         "name":"Oldegar",
+         "lat":47.218182613675665,
+         "lng":-1.5439944612553838,
+         "rating":"B",
+         "color":"#b5dabe",
+         "pdlmc_price":"6€",
+         "description":"Oldegar c’est tout nouveau et c’est un concept rare à Nantes : un bar / hôtel ! 🤯 On est aller tester pendant le festival Bar-Bars, on te raconte ! ✌️ Situé à deux pas de la gare, c’est",
+         "ig_link":"https://www.instagram.com/nantes_en_180_bars/p/DRsFqy9DYe8/",
+         "photos":[
+            "photos/Oldegar.webp"
+         ],
+         "isPépite":false
+      },
+      {
+         "id":130,
+         "name":"P’tit Zinc",
+         "lat":47.215861933137475, 
+         "lng":-1.552325299125897,
+         "rating":"B",
+         "color":"#b5dabe",
+         "pdlmc_price":"4€",
+         "description":"Le P'tit Zinc est situé au cœur de Bouffay dans un croisement très festif, ambiance garantie en terrasse. 🥳 La terrasse, c’est justement le gros point fort du bar, tu peux même y être au soleil",
+         "ig_link":"https://www.instagram.com/nantes_en_180_bars/p/CnubG15ojBv/",
+         "photos":[
+            "photos/Ptit zinc.webp"
+         ],
+         "isPépite":false
+      },
+      {
+         "id":131,
+         "name":"Peter Mc Cool",
+         "lat":47.21401240422682, 
+         "lng":-1.562453012725891,
+         "rating":"A",
+         "color":"#306629",
+         "pdlmc_price":"5,2€",
+         "description":"De retour quartier Graslin, on en a profité pour refaire le @petermccoolgraslin , ce pub situé juste à côté du Katorza ! 🎬 L’ambiance du pub 🇮🇪 est toujours aussi agréable avec un intérieur",
+         "ig_link":"https://www.instagram.com/nantes_en_180_bars/p/DSrxwARDTM5/",
+         "photos":[
+            "photos/Peter mc cool.webp"
+         ],
+         "isPépite":false,
+         "types": ["pub", "flechettes"]
+      },
+      {
+         "id":132,
+         "name":"Poum Poum T'chak",
+         "lat":47.21633249354276,
+         "lng":-1.5524378054336982,
+         "rating":"B",
+         "color":"#b5dabe",
+         "pdlmc_price":"5,5€",
+         "description":"Le Poum Poum T'chak se situe en plein Bouffay dans une rue piétonne très sympa. 😎 Service au bar dans un très bonne ambiance. À la carte : de la bière, des cocktails (entre 8 et 9€) et du vin.",
+         "ig_link":"https://www.instagram.com/nantes_en_180_bars/p/CjYnpSZoXMk/",
+         "photos":[
+            "photos/PoumPoum.webp"
+         ],
+         "isPépite":false
+      },
+      {
+         "id":133,
+         "name":"Ruin Bar",
+         "lat":47.214698936639046, 
+         "lng":-1.5527928782559013,
+         "rating":"C",
+         "color":"#f4c280",
+         "pdlmc_price":"4,2€",
+         "description":"Le Ruin Bar se situe à l'angle de la Place Bouffay et de la grande allée du Port Maillard. La terrasse située en plein soleil ☀️ est très grande, presque trop grande par moment.",
+         "ig_link":"https://www.instagram.com/nantes_en_180_bars/p/CyTja0nRR-h/",
+         "photos":[
+            "photos/Ruin bar.webp"
+         ],
+         "isPépite":false,
+         "types": ["terrasse-au-soleil"]
+      },
+      {
+         "id":134,
+         "name":"Safe Place",
+         "lat":47.21157595574849,
+         "lng":-1.5517620882419514,
+         "rating":"A",
+         "color":"#306629",
+         "pdlmc_price":"5,5€",
+         "description":"Bienvenue au Safe Place ! Situé juste en face de l’arrêt Hôtel Dieu, ce bar est maintenant un classique du quartier pour aller écouter de la bonne musique ! 🎶 En effet, le bar organise des soir",
+         "ig_link":"https://www.instagram.com/nantes_en_180_bars/p/DGEAdS4MzdN/",
+         "photos":[
+            "photos/Safe place.webp"
+         ],
+         "isPépite":false,
+         "types": ["terrasse-au-soleil"]
+      },
+      {
+         "id":135,
+         "name":"Salut Marcel",
+         "lat":47.21320280300467,
+         "lng":-1.5607412594062136,
+         "rating":"C",
+         "color":"#f4c280",
+         "pdlmc_price":"6€",
+         "description":"Bienvenue au Salut Marcel ! Ce bar est idéalement situé à 2 pas de la place Graslin et entouré de nombreux autres bars et restaurants. 🤗 L'extérieur est assez grand avec une belle terrasse, parfait",
+         "ig_link":"https://www.instagram.com/nantes_en_180_bars/p/DE-XuU2tmsN/",
+         "photos":[
+            "photos/Salut Marcel.webp"
+         ],
+         "isPépite":false,
+         "types": ["bar-dansant", "flechettes"],
+"fermeture": "LMMJVSD: 17h-04h"
+      },
+      {
+         "id":136,
+         "name":"Santeuil café",
+         "lat":47.21361396224847,
+         "lng":-1.5604441035843644,
+         "rating":"B",
+         "color":"#b5dabe",
+         "pdlmc_price":"6€",
+         "description":"Une envie de cocktail ? On est de retour au Santeuil Café pour vous présenter ce fameux bar à cocktail ! 🍹Le Santeuil Café se situe entre Royale et Graslin. La terrasse est assez petite mais pl",
+         "ig_link":"https://www.instagram.com/nantes_en_180_bars/p/CkrAdSlMXQv/",
+         "photos":[
+            "photos/Santeuil cafe.webp"
+         ],
+         "isPépite":false,
+         "types": ["cocktail"]
+      },
+      {
+         "id":137,
+         "name":"Soon",
+         "lat":47.21347531177048,
+         "lng":-1.558430845913119,
+         "rating":"C",
+         "color":"#f4c280",
+         "pdlmc_price":"5,8€",
+         "description":"Le Soon Café est un des deux bars présent sur la place du Commerce ! Contrairement au Café du Commerce, le Soon Café ne fait pas brasserie et se présente plus comme un bar classique. 🍻",
+         "ig_link":"https://www.instagram.com/nantes_en_180_bars/p/DCZrru3R7Fk/",
+         "photos":[
+            "photos/Soon.webp"
+         ],
+         "isPépite":false
+      },
+      {
+         "id":138,
+         "name":"Tabarnak",
+         "lat":47.21511596762055,
+         "lng":-1.5567994846754067,
+         "rating":"Pépite",
+         "color":"#193f21",
+         "pdlmc_price":"3,9€",
+         "description":"Une nouvelle pépite pour notre 50ème post, c'est le Tabarnak ! Située sur une petite place cachée derrière la basilique St Nicolas, on adore le cadre et la situation de la terrasse. Il y a beaucoup",
+         "ig_link":"https://www.instagram.com/nantes_en_180_bars/p/CuhkIpbJMc5/",
+         "photos":[
+            "photos/Tabarnak.webp"
+         ],
+         "isPépite":true
+      },
+      {
+         "id":140,
+         "name":"The Cornishman",
+         "lat":47.215731395360045,
+         "lng":-1.557156961255501,
+         "rating":"B",
+         "color":"#b5dabe",
+         "pdlmc_price":"5€",
+         "description":"The Cornishman est pub situé entre commerce et place royale, dans une petite rue plutôt calme. La terresse est assez grande, et plutot preservée de la cohut de commerce.  À la carte, un nombreux",
+         "ig_link":"https://www.instagram.com/nantes_en_180_bars/p/CzRuIb7osS6/",
+         "photos":[
+            "photos/Cornishman.webp"
+         ],
+         "isPépite":false,
+         "types": ["pub", "flechettes"]
+      },
+      {
+         "id":141,
+         "name":"The Green Sheep",
+         "lat":47.21383933658945,
+         "lng":-1.553675503584384,
+         "rating":"B",
+         "color":"#b5dabe",
+         "pdlmc_price":"4,5€",
+         "description":"Le Green Sheep se situe en plein centre de l'île Feydeau, ambiance animée à l'extérieur assurée avec une belle terrasse ! 🥳 À l'intérieur, on est sur une ambiance pub irlandais assez classique !",
+         "ig_link":"https://www.instagram.com/nantes_en_180_bars/p/CpNHJNooDHg/",
+         "photos":[
+            "photos/Green sheep.webp"
+         ],
+         "isPépite":false,
+         "types": ["pub", "flechettes"]
+      },
+      {
+         "id":142,
+         "name":"The Tipsy Travellers",
+         "lat":47.21695167897811,
+         "lng":-1.555304832419843,
+         "rating":"B",
+         "color":"#b5dabe",
+         "pdlmc_price":"5€",
+         "description":"The Tipsy Travellers est un nouveau bar situé dans les rues festives de Bouffay ! 🍾 La terrasse du bar est assez classique mais profite de l’ambiance animée de la rue. 👌 L’intérieur est lui beaucoup plus petit.",
+         "ig_link":"https://www.instagram.com/nantes_en_180_bars/p/DO_ibx7Dait/",
+         "photos":[
+            "photos/Tipsy travellers.webp"
+         ],
+         "isPépite":false
+      },
+      {
+         "id":143,
+         "name":"Voyage Voyage",
+         "lat":47.2176282726169,
+         "lng":-1.5554462262213555,
+         "rating":"B",
+         "color":"#b5dabe",
+         "pdlmc_price":"5,5€",
+         "description":"On découvre aujourd'hui un bar encore tout jeune qui a ouvert en juin 2024 : @bar.voyagevoyage ! Situé au nord du quartier Bouffay, c'est un resto/bar ouvert du mardi au samedi ! 🤗",
+         "ig_link":"https://www.instagram.com/nantes_en_180_bars/p/DD96BBeIaV4/",
+         "photos":[
+            "photos/Voyage.webp"
+         ],
+         "isPépite":false
+      },
+      {
+         "id":144,
+         "name":"Wattignies",
+         "lat":47.20425777407284,
+         "lng":-1.5462804925932903,
+         "rating":"A",
+         "color":"#306629",
+         "pdlmc_price":"5€",
+         "description":"Cet incontournable bar de l’île de Nantes te permettra de passer une bonne fin d’après midi avec tes potes. Grande terrasse pleine de couleurs, agréable et au soleil. ☀️ De la bière, des cocktails",
+         "ig_link":"https://www.instagram.com/nantes_en_180_bars/p/CjI-2bGIFg-/?__d=1",
+         "photos":[
+            "photos/Wattignies.webp"
+         ],
+         "isPépite":false,
+         "types": ["terrasse-au-soleil", "flechettes"]
+      },
+      {
+         "id":145,
+         "name":"Yabba",
+         "lat":47.21107500943741,
+         "lng":-1.5660943324201524,
+         "rating":"A",
+         "color":"#306629",
+         "pdlmc_price":"6€",
+         "description":"Le Yabba a ouvert début 2024 et c’est un super bar qu’on te présente aujourd’hui ! Situé proche du cours Cambronne, le bar est ouvert du mardi au samedi de 17h à 1h/2h. L’intérieur du bar",
+         "ig_link":"https://www.instagram.com/nantes_en_180_bars/p/DUySJVijZ-N/?__d=1",
+         "photos":[
+            "photos/Yabba.webp"
+         ],
+         "isPépite":false
+      },
+      {
+         "id":146,
+         "name":"Zygobar",
+         "lat":47.21076721036804,
+         "lng":-1.5491069747489368,
+         "rating":"A",
+         "color":"#306629",
+         "pdlmc_price":"6,6€",
+         "description":"Le Zygobar c’est un des bars concerts les plus stylés de Nantes ! 🎶 Le bar est un petit peu caché dans la rue des Olivettes et la devanture est toute petite mais on t’assure que ça vaut vraiment",
+         "ig_link":"https://www.instagram.com/nantes_en_180_bars/p/DK7N1gTsJ9Y/",
+         "photos":[
+            "photos/Zygobar.webp"
+         ],
+         "isPépite":false
+      },
+            {
+         "id":147,
+         "name":"Le Fer à Cheval",
+         "lat":47.23289102129243, 
+         "lng":-1.5654143417095316,
+         "pdlmc_price":"5,6€",
+         "description":"Tu ne peux pas rater la devanture toute bleue du Fer à Cheval, ce PMU situé juste à côté du rond point de Rennes ! On a été le tester et on te raconte ça ! 😎 L’intérieur du bar est assez froid avec u",
+         "ig_link":"https://www.instagram.com/p/DYxGh5qDbup/?img_index=1",
+         "photos":[
+            "photos/Feracheval.webp"
+         ],
+         "isPépite":false,
+         "types": ["pmu"]
+      },
+            {
+         "id":148,
+         "name":"Le Bistrô Nouveau",
+         "lat":47.21605308789299, 
+         "lng":-1.5527235836387905,
+         "rating":"B",
+         "color":"#b5dabe",
+         "pdlmc_price":"5€",
+         "description":"Le Bistrô Nouveau se situe en plein milieu de la Place du Pilori ! Lieu de passage, tu es surement déjà passé devant ce bar qui a changé de propriétaire récemment. Le bistro est ouvert toute la journée",
+         "ig_link":"https://www.instagram.com/p/DVbpQb1DSUC/?img_index=1",
+         "photos":[
+            "photos/Bistronouveau.webp"
+         ],
+         "isPépite":false,
+         "types": ["flechettes"]               
+      },    
+      {
+         "id":149,
+         "name":"Little William",
+         "lat":47.23093145236312,
+         "lng":-1.5560871322255017,
+         "rating":"A",
+         "color":"#306629",
+         "pdlmc_price":"5,5€",
+         "description":"Première fois qu’on se retrouve quartier Saint Félix pour vous présenter l’iconique @littlewilliamnantes ! Ce bar est un classique du quartier situé sur la place Saint Félix face à l’église.",
+         "ig_link":"https://www.instagram.com/p/DVwNNABDUr5/?img_index=1",
+         "photos":[
+            "photos/Littlewilliam.webp"
+         ],
+         "isPépite":false,
+         "types": ["pub"]
+      },      
+      {
+         "id":150,
+         "name":"La Routine",
+         "lat":47.2164612391006, 
+         "lng":-1.5530313777027351,
+         "rating":"B",
+         "color":"#b5dabe",
+         "pdlmc_price":"6€",
+         "description":"la Routine est un nouveau bar qui a ouvert en août 2025 juste à côté de la Place du Pilori ! Un super bar de copains que l’on te présente aujourd’hui. Anciennement le Briord, la Routine se centre ",
+         "ig_link":"https://www.instagram.com/nantes_en_180_bars/p/DK7N1gTsJ9Y/",
+         "photos":[
+            "photos/Routine.webp"
+         ],
+         "isPépite":false,
+         "types": ["flechettes"] 
+      },      
+      {
+         "id":151,
+         "name":"Le Balkabar",
+         "lat":47.20899232673447,
+         "lng":-1.5684856281159427,
+         "rating":"A",
+         "color":"#306629",
+         "pdlmc_price":"5,3€",
+         "description":"On s’attaque à une référence à Nantes mais il y a des chances que tu ne le connaisse pas : Le Balkabar ! Situé en face du pont Anne de Bretagne, le bar ne paye pas forcément de mine vu de loin mais ça",
+         "ig_link":"https://www.instagram.com/p/DWMCobGDbGl/?img_index=1",
+         "photos":[
+            "photos/Balkabar.webp"
+         ],
+         "isPépite":false
+      },      
+      {
+         "id":152,
+         "name":"La Taverne des Aventuriers",
+         "lat":47.21278119130095,
+         "lng":-1.5555994757176985,
+         "rating":"A",
+         "color":"#306629",
+         "pdlmc_price":"6€",
+         "description":"Il y 8 mois, la rue Kervégan connaissait un changement de bar. Adieu les cocktails du Bottleger et bonjour à un nouveau bar à jeu (ou même un bar d’aventure) : @latavernedesaventuriers44 ! ⚔️",
+         "ig_link":"https://www.instagram.com/p/DWypVn0jW4F/?img_index=1",
+         "photos":[
+            "photos/Tavernedesaventuriers.webp"
+         ],
+         "isPépite":false,
+         "types": ["jeux"]
+      },
+            {
+         "id":153,
+         "name":"Le Chat Noir",
+         "lat":47.213003657335825, 
+         "lng":-1.5563331101121152,
+         "rating":"B",
+         "color":"#b5dabe",
+         "pdlmc_price":"5€",
+         "description":"Le Chat Noir vient de fêter ces douze ans il y a quelques jours ! Ce bar devient petit à petit un classique du centre-ville de Nantes. 🔰 Situé en face de la place du Commerce, le bar a une grande",
+         "ig_link":"https://www.instagram.com/nantes_en_180_bars/p/Cq8mdkMofIs/",
+         "photos":[
+            "photos/Chat noir.webp"
+         ],
+         "isPépite":false,
+         "types": ["terrasse-au-soleil", "flechettes"]
+      },
+            {
+         "id":154,
+         "name":"Shake Point",
+         "lat":47.213805281921026,
+         "lng":-1.5542630591052549,
+         "rating":"B",
+         "color":"#b5dabe",
+         "pdlmc_price":"4€",
+         "description":"Le @shakepointnantes a remplacé le Jungle début 2025 ! Cela va bientôt faire un an que ce bar a changé et on te le présente aujourd’hui ! Il est situé en plein centre de Nantes (difficile de faire plus) à la croisée des trams ! 🚋",
+         "ig_link":"https://www.instagram.com/p/DU_UqQmDazx/?img_index=1",
+         "photos":[
+            "photos/Shakepoint.webp"
+         ],
+         "isPépite":false,
+         "types": ["terrasse-au-soleil", "flechettes"]
+      },
+                  {
+         "id":155,
+         "name":"Les Copains d'Abord",
+         "lat":47.21618054962681, 
+         "lng":-1.5584094305704068,
+         "rating":"A",
+         "color":"#306629",
+         "pdlmc_price":"6€",
+         "description":"Pour notre 150ème bar, on a décidé de tester Les Copains D'abord, un bar situé entre place Royale et Bretagne. ✌️ Le bar est très agréable, avec un étage assez grand et chaleureux. Il",
+         "ig_link":"https://www.instagram.com/nantes_en_180_bars/p/DTYSnw8DTT6/",
+         "photos":[
+            "photos/Copainsdabord.webp"
+         ],
+         "isPépite":false,
+         "types": ["flechettes"]
+      },
+                        {
+         "id":156,
+         "name":"Le Caboulot",
+         "lat":47.205987672830894, 
+         "lng":-1.560704824760449,
+         "rating":"C",
+         "color":"#f4c280",
+         "pdlmc_price":"8€",
+         "description":"Le Caboulot est un bar que se situe dans le quartier de la création sur l'île de Nantes. Son emplacement est vraiment sympa, dans une rue assez calme avec une petite terrasse extensible aux beaux",
+         "ig_link":"https://www.instagram.com/nantes_en_180_bars/p/C5Tsmm8uUh4/",
+         "photos":[
+            "photos/Caboulot.webp"
+         ],
+         "isPépite":false
+      },
+                              {
+         "id":157,
+         "name":"Micro Barrr",
+         "lat":47.209880635585485, 
+         "lng":-1.5648360062713553,
+         "rating":"A",
+         "color":"#306629",
+         "pdlmc_price":"6,5€",
+         "description":"Le Micro Barrr c’est le bar juste à côté du Micro Comedy Club ! Avec le Micro Ondes, tout cela compose le Micro Village et on se devait de tester ça ! 🤗 Situé sur le Quai de la Fosse, le Micro Barrr",
+         "ig_link":"https://www.instagram.com/p/DXOvbO5jcfl/?img_index=1",
+         "photos":[
+            "photos/MicroBarrr.webp"
+         ],
+         "isPépite":false
+      },
+                                    {
+         "id":158,
+         "name":"L'Enchantier",
+         "lat":47.22198183598517,
+         "lng":-1.530834942700562,
+         "rating":"A",
+         "color":"#306629",
+         "pdlmc_price":"5,3€",
+         "description":"On te présente aujourd’hui une petite pépite du quartier Dalby, un vrai bistrot, café/concert comme on les aimes ! 😍 L'enchantier est situé pas loin de l’arrêt Moutonnerie, le bar a une petite terrasse",
+         "ig_link":"https://www.instagram.com/p/DXyqMXPja07/?img_index=1",
+         "photos":[
+            "photos/L_enchantier.webp"
+         ],
+         "isPépite":false,
+         "types": ["flechettes"]                              
+      },
+                              {
+         "id":159,
+         "name":"Célestine",
+         "lat":47.21210465110487, 
+         "lng":-1.5459562013521768,
+         "rating":"C",
+         "color":"#f4c280",
+         "pdlmc_price":"6,7€",
+         "description":"Il y a maintenant plusieurs mois, le bar Célestine a remplacé les Voisins dans le quartier de la Cité des Congrès ! On est passé y faire un tour pour vous mettre à jour ! Célestine, c’est un bar restaurant",
+         "ig_link":"https://www.instagram.com/p/DXpHrxUjZlF/?img_index=1",
+         "photos":[
+            "photos/Celestine.webp"
+         ],
+         "isPépite":false
+      },
+                  {
+         "id":160,
+         "name":"Buvette de chez Maman",
+         "lat":47.21569818593726, 
+         "lng":-1.5526579109317094,
+         "rating":"B",
+         "color":"#b5dabe",
+         "pdlmc_price":"6€",
+         "description":"Le restaurant Chez Maman a ouvert il y a un an sa buvette : La Buvette de chez Maman ! 🍻 Un bar avec une déco kitsch et insolite ! Situé rue de la juiverie en plein Bouffay le bar profite d’un cadre",
+         "ig_link":"https://www.instagram.com/p/DW6yQGMjVqD/?img_index=1",
+         "photos":[
+            "photos/Buvettedechezmaman.webp"
+         ],
+         "isPépite":false,
+         "types": ["flechettes"]
+      },
+                                    {
+         "id":161,
+         "name":"La Beaujoire",
+         "lat":47.24881626669062, 
+         "lng":-1.5213594004833464,
+         "pdlmc_price":"6,7€",
+         "description":"La Beaujoire c’est sûrement le PMU le plus emblématique de Nantes ! Avec sa grande façade au couleurs du FC Nantes, tu ne peux pas le rater ! Le bar est grand avec beaucoup de passage car",
+         "ig_link":"https://www.instagram.com/p/DYpNgLWDdTj/?img_index=1",
+         "photos":[
+            "photos/Beaujoire.webp"
+         ],
+         "isPépite":false,
+         "types": ["pmu"] 
+      },
+                                          {
+         "id":162,
+         "name":"Quai des Brumes",
+         "lat":47.221368119087984, 
+         "lng":-1.531138327233663,
+         "pdlmc_price":"5,7€",
+         "description":"Vous êtes plusieurs à nous avoir conseillé de tester le Quai des Brumes et on vous a écouté ! Situé quartier Dalby le Quai des Brumes dispose d'une petite terrasse sympa et d'un intérieur plus petit.",
+         "ig_link":"https://www.instagram.com/p/DYpNgLWDdTj/?img_index=1",
+         "photos":[
+            "photos/Quaidesbrumes.webp"
+         ],
+         "isPépite":false,
+         "types": ["pmu", "flechettes"] 
+      },
+                                                {
+         "id":163,
+         "name":"Rond Point de Vannes",
+         "lat":47.22943074842739, 
+         "lng":-1.572463940388226,
+         "pdlmc_price":"5,9€",
+         "description":"Encore un classique des PMU avec le Rond Point de Vannes, un bar/tabac situé entre le quartier Saint Félix et le parc de Procé. 🌳 Le lieu est séparé entre un espace tabac/presse/grattage et le bar",
+         "ig_link":"https://www.instagram.com/p/DYpNgLWDdTj/?img_index=1",
+         "photos":[
+            "photos/Roindpointdevannes.webp"
+         ],
+         "isPépite":false,
+         "types": ["pmu"] 
+      },
+                                                   {
+         "id":164,
+         "name":"Le 91",
+         "lat":47.208161489853225, 
+         "lng":-1.5703121316652788,
+         "pdlmc_price":"6,2€",
+         "description":"On trouve plusieurs bars dont quelques PMU sur le quai de la fosse et on t’en présente un aujourd’hui : le 91 ! Situé un peu après le pont Anne de Bretagne le 91 n’a pas vraiment de terrasse devant et",
+         "ig_link":"https://www.instagram.com/p/DYpNgLWDdTj/?img_index=1",
+         "photos":[
+            "photos/Le91.webp"
+         ],
+         "isPépite":false,
+         "types": ["pmu"] 
+      }
+   ]
+}

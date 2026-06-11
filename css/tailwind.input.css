@@ -1,0 +1,6 @@
+/* Source du build Tailwind. Pour régénérer css/tailwind.css après ajout
+   de nouvelles classes dans index.html ou js/script.js :
+   tools\tailwindcss.exe -i css/tailwind.input.css --content "index.html,js/script.js" -o css/tailwind.css --minify */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
