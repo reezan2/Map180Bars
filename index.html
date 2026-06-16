@@ -7,13 +7,17 @@
   <title>Nantes en 180 Bars - Carte</title>
   <link rel="icon" href="assets/Logoapp180.png">
   <link rel="apple-touch-icon" href="assets/Logoapp180.png">
-  <!-- Google Analytics -->
+  <!-- Google Analytics (mode sans cookies — pas de bandeau RGPD requis) -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-DT6LH48X54"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
+    gtag('consent', 'default', {
+      analytics_storage: 'denied',
+      ad_storage: 'denied'
+    });
     gtag('js', new Date());
-    gtag('config', 'G-DT6LH48X54');
+    gtag('config', 'G-DT6LH48X54', { anonymize_ip: true });
   </script>
   <link rel="stylesheet" href="css/tailwind.css">
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
