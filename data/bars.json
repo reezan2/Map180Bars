@@ -2448,7 +2448,7 @@
          "lng":-1.531138327233663,
          "pdlmc_price":"5,7€",
          "description":"Vous êtes plusieurs à nous avoir conseillé de tester le Quai des Brumes et on vous a écouté ! Situé quartier Dalby le Quai des Brumes dispose d'une petite terrasse sympa et d'un intérieur plus petit.",
-         "ig_link":"https://www.instagram.com/p/DYpNgLWDdTj/?img_index=1",
+         "ig_link":"https://www.instagram.com/p/DY2VO83jZHq/?img_index=1",
          "photos":[
             "photos/Quaidesbrumes.webp"
          ],
@@ -2462,7 +2462,7 @@
          "lng":-1.572463940388226,
          "pdlmc_price":"5,9€",
          "description":"Encore un classique des PMU avec le Rond Point de Vannes, un bar/tabac situé entre le quartier Saint Félix et le parc de Procé. 🌳 Le lieu est séparé entre un espace tabac/presse/grattage et le bar",
-         "ig_link":"https://www.instagram.com/p/DYpNgLWDdTj/?img_index=1",
+         "ig_link":"https://www.instagram.com/p/DZAdhF0jSYh/?img_index=1",
          "photos":[
             "photos/Roindpointdevannes.webp"
          ],
@@ -2476,12 +2476,27 @@
          "lng":-1.5703121316652788,
          "pdlmc_price":"6,2€",
          "description":"On trouve plusieurs bars dont quelques PMU sur le quai de la fosse et on t’en présente un aujourd’hui : le 91 ! Situé un peu après le pont Anne de Bretagne le 91 n’a pas vraiment de terrasse devant et",
-         "ig_link":"https://www.instagram.com/p/DYpNgLWDdTj/?img_index=1",
+         "ig_link":"https://www.instagram.com/p/DZP_hkSjU3k/?img_index=1",
          "photos":[
             "photos/Le91.webp"
          ],
          "isPépite":false,
          "types": ["pmu"] 
+      },
+                  {
+         "id":165,
+         "name":"Chez ta Mère",
+         "lat":47.21673882152869, 
+         "lng":-1.5588382940785612,
+         "rating":"B",
+         "color":"#b5dabe",
+         "pdlmc_price":"5,5€",
+         "description":"Après notre tour des PMU, nous voici de retour dans un bar plus classique à Nantes : @cheztamere_bretagne ! Situé proche de la Tour de Bretagne, Chez ta mère c’est un bar/bistrot ouvert du matin",
+         "ig_link":"https://www.instagram.com/p/DZk0H9rjQCw/?img_index=1",
+         "photos":[
+            "photos/Chez ta mere.webp"
+         ],
+         "isPépite":false
       }
    ]
 }
