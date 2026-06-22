@@ -1,10 +1,9 @@
-const VERSION = 'v3';
+const VERSION = 'v4';
 const STATIC_CACHE = `bars-static-${VERSION}`;
 const RUNTIME_CACHE = `bars-runtime-${VERSION}`;
 const TILES_CACHE = 'tiles-v1';
 const TILES_MAX_ENTRIES = 400;
 
-// Chemins relatifs au sw.js : fonctionne en local et quel que soit le nom du repo
 const STATIC_ASSETS = [
   './',
   './index.html',
@@ -14,14 +13,12 @@ const STATIC_ASSETS = [
 ];
 
 self.addEventListener('install', e => {
-  // cache: 'reload' = ignore le cache HTTP du navigateur, va chercher au serveur
   e.waitUntil(caches.open(STATIC_CACHE).then(c =>
     c.addAll(STATIC_ASSETS.map(u => new Request(u, { cache: 'reload' })))
   ));
   self.skipWaiting();
 });
 
-// Purge les caches des anciennes versions quand le nouveau SW s'active
 self.addEventListener('activate', e => {
   const keep = [STATIC_CACHE, RUNTIME_CACHE, TILES_CACHE];
   e.waitUntil(
@@ -31,7 +28,6 @@ self.addEventListener('activate', e => {
   );
 });
 
-// Plafonne le nombre de tuiles en cache pour ne pas saturer le quota de stockage
 async function trimCache(cacheName, maxEntries) {
   const cache = await caches.open(cacheName);
   const keys = await cache.keys();
@@ -44,7 +40,14 @@ self.addEventListener('fetch', e => {
   if (e.request.method !== 'GET') return;
   const url = new URL(e.request.url);
 
-  // Tuiles de carte : cache-first (les tuiles ne changent pas), avec plafond
+  // ✅ AJOUT — Laisse passer Google Analytics sans interception
+  if (url.hostname.includes('google-analytics.com') ||
+      url.hostname.includes('googletagmanager.com') ||
+      url.hostname.includes('analytics.google.com')) {
+    return;
+  }
+
+  // Tuiles de carte
   if (url.hostname.includes('thunderforest.com') || url.hostname.includes('tile.openstreetmap')) {
     e.respondWith(
       caches.open(TILES_CACHE).then(cache =>
@@ -63,16 +66,13 @@ self.addEventListener('fetch', e => {
     return;
   }
 
-  // Fichiers de l'app (html, js, bars.json) : network-first
-  // → les mises à jour (nouveaux bars) arrivent immédiatement,
-  //   le cache ne sert que de secours hors-ligne
+  // Fichiers de l'app : network-first
   const isAppFile = url.origin === self.location.origin
     && !url.pathname.includes('/photos/')
     && !url.pathname.includes('/assets/');
+
   if (isAppFile) {
     e.respondWith(
-      // cache: 'no-cache' = revalide toujours auprès du serveur (304 si inchangé),
-      // sinon le cache HTTP du navigateur peut resservir un bars.json périmé
       fetch(e.request, { cache: 'no-cache' })
         .then(response => {
           if (response.ok) {
@@ -86,8 +86,7 @@ self.addEventListener('fetch', e => {
     return;
   }
 
-  // Reste (CDN Leaflet/Tailwind/Fuse, photos, icônes) : cache-first,
-  // mis en cache à la première visite → dispo hors-ligne ensuite
+  // Reste : cache-first
   e.respondWith(
     caches.match(e.request).then(cached => {
       if (cached) return cached;
