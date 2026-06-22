@@ -139,7 +139,7 @@ map.on('click', () => {
   document.getElementById('search-suggestions').classList.add('hidden');
   document.getElementById('search-bar').blur();
 });
-  L.tileLayer('https://{s}.tile.thunderforest.com/pioneer/{z}/{x}/{y}.png?apikey=8b46d9f2ad30440aac72699d4746657c', {
+  L.tileLayer('https://{s}.tile.thunderforest.com/pioneer/{z}/{x}/{y}.png?apikey=223bcf6c60b049f1b16045e557cd8ffa', {
     attribution: '&copy; Thunderforest & OpenStreetMap',
     maxZoom: 19
   }).addTo(map);
