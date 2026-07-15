@@ -1091,9 +1091,9 @@
          "color":"#306629",
          "pdlmc_price":"4€",
          "description":"Le chemin de traverse est un bar à bières présent au cœur de l'ancienne île Feydeau. Son emplacement est idéal avec une bonne ambiance extérieure. 🥳 Niveau carte, le choix de bières est top. 🍺",
-         "ig_link":"https://www.instagram.com/nantes_en_180_bars/p/Cn2RN9UIeYf/",
+         "ig_link":"https://www.instagram.com/p/DaInqURjX-e/?img_index=1",
          "photos":[
-            "photos/chemin de traverse.webp"
+            "photos/Chemin de traverse.webp"
          ],
          "isPépite":false
       },
@@ -2497,6 +2497,38 @@
             "photos/Chez ta mere.webp"
          ],
          "isPépite":false
+      },
+                                                         {
+         "id":166,
+         "name":"Le Chill Out",
+         "lat":47.212977323219704, 
+         "lng":-1.5459779254405144,
+         "rating":"C",
+         "color":"#f4c280",
+         "pdlmc_price":"6,5€",
+         "description":"Aujourd’hui, on vous présente le Chill Out, un bar situé quartier Madeleine tout près de la Cité des Congrès. Le bar n’est pas encore très connu à Nantes, on a donc été tester ça ! Tu y trouveras une terrasse",
+         "ig_link":"https://www.instagram.com/p/DaU9hfTF6A9/?img_index=1",
+         "photos":[
+            "photos/chillout.webp"
+         ],
+         "isPépite":false,
+         "types": ["flechettes"] 
+      },
+                                                         {
+         "id":167,
+         "name":"Pépins",
+         "lat":47.205226065037955,
+         "lng":-1.5563631290072169,
+         "rating":"B",
+         "color":"#b5dabe",
+         "pdlmc_price":"5,5€",
+         "description":"On était sur l’Ile de Nantes pour voir le match de la France et on en a profité pour tester Pépins, on te présente ce nouveau bar ! Pépins est situé à deux pas du rond point de République.",
+         "ig_link":"https://www.instagram.com/p/DaU9hfTF6A9/?img_index=1",
+         "photos":[
+            "photos/pepins.webp"
+         ],
+         "isPépite":false,
+         "types": ["flechettes"] 
       }
    ]
 }
