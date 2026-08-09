@@ -2529,6 +2529,22 @@
          ],
          "isPépite":false,
          "types": ["flechettes"] 
+      },
+      {
+         "id":170,
+         "name":"Soeurs Carnage",
+         "lat":47.2194233080143,
+         "lng":-1.5549080189622977,
+         "rating":"Pépite",
+         "color":"#193f21",
+         "pdlmc_price":"5€",
+         "description":"Soeurs Carnage, c’est le bar à cocktails qu’il faut absolument tester à Nantes en ce moment ! Situé dans une des rues",
+         "ig_link":"https://www.instagram.com/p/DbTYazTDbNr/?img_index=1",
+         "photos":[
+            "photos/Soeurscarnage.webp"
+         ],
+         "isPépite":true
+         "types": ["cocktail"]
       }
    ]
 }
