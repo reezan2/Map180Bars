@@ -2350,21 +2350,6 @@
          "isPépite":false,
          "types": ["flechettes"]
       },
-                        {
-         "id":156,
-         "name":"Le Caboulot",
-         "lat":47.205987672830894, 
-         "lng":-1.560704824760449,
-         "rating":"C",
-         "color":"#f4c280",
-         "pdlmc_price":"8€",
-         "description":"Le Caboulot est un bar que se situe dans le quartier de la création sur l'île de Nantes. Son emplacement est vraiment sympa, dans une rue assez calme avec une petite terrasse extensible aux beaux",
-         "ig_link":"https://www.instagram.com/nantes_en_180_bars/p/C5Tsmm8uUh4/",
-         "photos":[
-            "photos/Caboulot.webp"
-         ],
-         "isPépite":false
-      },
                               {
          "id":157,
          "name":"Micro Barrr",
