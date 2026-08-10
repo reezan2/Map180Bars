@@ -2499,7 +2499,23 @@
          "isPépite":false,
          "types": ["flechettes"] 
       },
-                                                         {
+      {
+         "id":171,
+         "name":"Barons Perchés",
+         "lat":47.224081188375315,
+         "lng":-1.5537252565362307,
+         "rating":"A",
+         "color":"#306629",
+         "pdlmc_price":"5,90€",
+         "description":"Situé juste à côté de l’arrêt Saint Mihiel, le bar dispose d’une super terrasse pour se poser. 😎 L’intérieur est aussi sympa, avec de la place, des fléchettes et q",
+         "ig_link":"https://www.instagram.com/p/Db07jSLDQyV/?hl=fr&img_index=1",
+         "photos":[
+            "photos/Baronsperchés.webp"
+         ],
+         "isPépite":false,
+         "types": ["jeux", "flechettes"]
+      },                                                 
+      {
          "id":167,
          "name":"Pépins",
          "lat":47.205226065037955,
