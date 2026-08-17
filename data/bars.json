@@ -1366,6 +1366,23 @@
 "fermeture": "L : Fermé ; MM : 17h30-00h ; JVS : 17h30-04h ; D: Fermé"
       },
       {
+         "id":172,
+         "name":"Barberousse",
+         "lat":47.22012529134746,
+         "lng":-1.5490600855367838,
+         "rating":"B",
+         "color":"#b5dabe",
+         "pdlmc_price":"6,5€",
+         "description":"Qui n’a pas déjà fini une soirée un peu arrosée au Barberousse ? Si ce n’est pas le cas on t’explique ici pourquoi c’est toujours une bonne idée !",
+         "ig_link":"https://www.instagram.com/p/DcGzMrYjWob/?hl=fr&img_index=1",
+         "photos":[
+            "photos/Barberousse.webp"
+         ],
+         "isPépite":false,
+         "types": ["bar-dansant", "flechettes"],
+"fermeture": "Du lundi au samedi : 17h00-04h"
+      },
+      {
          "id":91,
          "name":"Le Molière",
          "lat":47.21338400376457, 
