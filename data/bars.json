@@ -581,6 +581,21 @@
          "isPépite":false
       },
       {
+         "id":15,
+         "name":"Et la Fourmi...",
+         "lat":47.213367710042775,
+         "lng":-1.5609319775101553,
+         "rating":"C",
+         "color":"#f4c280",
+         "pdlmc_price":"7,4€",
+         "description":""Et la Fourmi... est un bistrot / bar ouvert du mardi au samedi toute la journée ! Situé dans les petites rues sympas entre Graslin et Royale, le lieu propose donc à déjeuner le midi et une offr"",
+         "ig_link":"https://www.instagram.com/p/Dcyt3qbjX4v/?hl=fr&img_index=1",
+         "photos":[
+            "photos/Etlafourmi.webp"
+         ],
+         "isPépite":false
+      },
+      {
          "id":39,
          "name":"Jack's Corner",
          "lat":47.215122843727656,
