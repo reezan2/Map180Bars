@@ -193,13 +193,13 @@
       {
          "id":14,
          "name":"Café Kleber",
-         "lat":47.214594224439395,
-         "lng":-1.5660037517430838,
+         "lat":47.21442707019363,
+         "lng":--1.5660311380975385,
          "rating":"B",
          "color":"#b5dabe",
-         "pdlmc_price":"8€",
-         "description":"Café Kleber se situe rue Kléber dans le quartier Copernic. C'est un bar assez cosy/guindé en cohérence avec ce quartier proche de Graslin. 🔰 On a beaucoup aimé l'atmosphère qu'il y règne",
-         "ig_link":"https://www.instagram.com/nantes_en_180_bars/p/C711iGwONGa/",
+         "pdlmc_price":"7€",
+         "description":"Après une fermeture, Le Café Kléber a changé de propriétaire et a réouvert cette année ! Situé rue Kléber dans le quartier Copernic, on se devait de tester ça pour vous donner des n",
+         "ig_link":"https://www.instagram.com/p/DdUPP-BDZo-/?img_index=1",
          "photos":[
             "photos/Cafe kleber.webp"
          ],
