@@ -441,6 +441,22 @@
          "types": ["terrasse-au-soleil", "guinguette"]
       },
       {
+         "id":114,
+         "name":"Sølheim",
+         "lat":47.21130284758948,
+         "lng":-1.5470359346314269,
+         "rating":"B",
+         "color":"#b5dabe",
+         "pdlmc_price":"6,9€",
+         "description":"Sølheim a ouvert il y a tout juste un an suite à la fermeture du Napoleone ! Situé au bout de la rue Fourré, Sølheim, c'est un bistrot d'inspiration nordique. ☃️ Bistrot classique pour le déjeuner, le soir, le lieu se transfor",
+         "ig_link":"https://www.instagram.com/p/DdoumGCDVw0/?hl=fr&img_index=1",
+         "photos":[
+            "photos/Solheim.webp"
+         ],
+         "isPépite":false,
+         "types": ["terrasse-au-soleil"]
+      },
+      {
          "id":30,
          "name":"DROP",
          "lat":47.219035011332814,
