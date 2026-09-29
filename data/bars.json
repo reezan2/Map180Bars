@@ -505,8 +505,8 @@
       {
          "id":33,
          "name":"Game Over",
-         "lat":47.22017661902607,
-         "lng":-1.5494692560174854,
+         "lat":47.22011255866855,
+         "lng":-1.5494803817564766,
          "rating":"A",
          "color":"#306629",
          "pdlmc_price":"5€",
@@ -1885,13 +1885,13 @@
       {
          "id":122,
          "name":"Maison Café",
-         "lat":47.22032950767532,
-         "lng":-1.5495575531459127,
+         "lat":47.22028544683146,
+         "lng":-1.549633557842783,
          "rating":"A",
          "color":"#306629",
-         "pdlmc_price":"5,5€",
+         "pdlmc_price":"4,5€",
          "description":"La maison café propose un concept assez unique à Nantes. En effet, le bar est une maison ! 🏠 Tu peux donc boire ta bière les pieds dans la baignoire, siroter ton cocktail dans la cuisine ou ",
-         "ig_link":"https://www.instagram.com/nantes_en_180_bars/p/CrwCkSLOAmf/",
+         "ig_link":"https://www.instagram.com/p/Dd4NahPDe4M/?img_index=1",
          "photos":[
             "photos/Maison cafe.webp"
          ],
