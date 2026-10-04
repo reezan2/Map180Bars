@@ -2212,6 +2212,21 @@
          "isPépite":false
       },
       {
+         "id":173,
+         "name":"/303",
+         "lat":47.21996275890171,
+         "lng":-1.559276079233071,
+         "rating":"B",
+         "color":"#b5dabe",
+         "pdlmc_price":"6€",
+         "description":"Aujourd’hui, on vous présente un super troquet de quartier : le 303 ! Le bar est situé au carrefour des rues Jean Jaurès et Léon Jamin, deux rues piét",
+         "ig_link":"https://www.instagram.com/p/DeE2QPvDUnQ/?hl=fr&img_index=1",
+         "photos":[
+            "photos/le303.webp"
+         ],
+         "isPépite":false
+      },
+      {
          "id":144,
          "name":"Wattignies",
          "lat":47.20425777407284,
