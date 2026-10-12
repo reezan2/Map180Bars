@@ -1021,6 +1021,22 @@
          "types": ["terrasse-au-soleil", "flechettes"]
       },
       {
+         "id":174,
+         "name":"Bistro du Cours",
+         "lat":47.21571495270856,
+         "lng":-1.5560811280535325,
+         "rating":"B",
+         "color":"#b5dabe",
+         "pdlmc_price":"4,1€",
+         "description":"Le Bistro du Cours est idéalement situé en plein centre-ville de Nantes, dans le quartier Commerce ! 📍 Son vrai point fort, c’est sa grande terrasse très sympa, parfa",
+         "ig_link":"https://www.instagram.com/p/DeXAqsdDTym/?hl=fr&img_index=1",
+         "photos":[
+            "photos/Bistroducours.webp"
+         ],
+         "isPépite":false,
+         "types": ["terrasse-au-soleil", "flechettes"]
+      },
+      {
          "id":65,
          "name":"Le Café des Plantes",
          "lat":47.21826222622419,
@@ -1330,22 +1346,6 @@
             "photos/Lutin de travers.webp"
          ],
          "isPépite":true
-      },
-      {
-         "id":87,
-         "name":"Le Mac",
-         "lat":47.21318990206925, 
-         "lng":-1.5605737704714542,
-         "rating":"Pépite",
-         "color":"Pepite.png",
-         "pdlmc_price":"5€",
-         "description":"Le Mac(anciennement le Macallan) est un pub situé tout proche de la place Graslin et du passage Pommeraye, et c’est la pépite de Get ! 😍 On adore aller dans ce bar car il y a une super ",
-         "ig_link":"https://www.instagram.com/nantes_en_180_bars/p/DI9NjZnMkaS/",
-         "photos":[
-            "photos/Mac.webp"
-         ],
-         "isPépite":true,
-         "types": ["pub", "flechettes"]
       },
       {
          "id":88,
