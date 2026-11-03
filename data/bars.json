@@ -1036,6 +1036,22 @@
          "isPépite":false,
          "types": ["terrasse-au-soleil", "flechettes"]
       },
+       {
+         "id":175,
+         "name":"Magari",
+         "lat":47.211231659770974,
+         "lng":-1.570910197023466,
+         "rating":"A",
+         "color":"#306629",
+         "pdlmc_price":"6,5€",
+         "description":"Un nouveau bar vient d’ouvrir à Nantes et il est spécialisé dans les Spritz ! Bienvenue au Magari ! Situé rue Lamori",
+         "ig_link":"https://www.instagram.com/p/DfNICueDdfW/?hl=fr&img_index=1",
+         "photos":[
+            "photos/Magari.webp"
+         ],
+         "isPépite":false,
+         "types": ["terrasse-au-soleil"]
+      }
       {
          "id":65,
          "name":"Le Café des Plantes",
