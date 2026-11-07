@@ -1332,6 +1332,22 @@
          "types": ["cocktail"]
       },
       {
+         "id":102,
+         "name":"13'OR Bar",
+         "lat":47.21640241657991,
+         "lng":-1.5513888920373886,
+         "rating":"B",
+         "color":"#b5dabe",
+         "pdlmc_price":"4,80€",
+         "description":"Ouvert depuis l’été 2025, on a été faire un tour au 13'OR Bar pour tester ça, on vous raconte ! 👌 Situé rue de Strasbourg, le bar profite d’une belle",
+         "ig_link":"https://www.instagram.com/p/DfXjko1DSiL/?hl=fr&img_index=1",
+         "photos":[
+            "photos/13'ORBar.webp"
+         ],
+         "isPépite":false,
+         "types": ["cocktail"]
+      },
+      {
          "id":85,
          "name":"Le Lieu Unique",
          "lat":47.21546499610793,
