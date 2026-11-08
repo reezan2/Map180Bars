@@ -206,21 +206,6 @@
          "isPépite":false
       },
       {
-         "id":15,
-         "name":"Café Le Bon Pasteur",
-         "lat":47.215708758052656,
-         "lng":-1.558772634269379,
-         "rating":"C",
-         "color":"#f4c280",
-         "pdlmc_price":"6€",
-         "description":"Le Bon Pasteur est un café nantais situé entre la Basilique St Nicolas, la rue du Calvaire et la place Royale. Discret d'extérieur, ce repère de jeunes habitués nantais cache une grande terrasse",
-         "ig_link":"https://www.instagram.com/nantes_en_180_bars/p/CsbpE0oMALB/",
-         "photos":[
-            "photos/Bon pasteur.webp"
-         ],
-         "isPépite":false
-      },
-      {
          "id":16,
          "name":"Canaille Café",
          "lat":47.21612122001624,
