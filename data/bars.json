@@ -348,6 +348,22 @@
          "types": ["flechettes"]
       },
       {
+         "id":176,
+         "name":"Monroe",
+         "lat":47.2174953351677,
+         "lng":-1.5566815796511282,
+         "rating":"C",
+         "color":"#f4c280",
+         "pdlmc_price":"4€",
+         "description":"En juin dernier, un nouveau bar a ouvert en hyper centre : le Monroe ! Situé tout proche de l'arrêt Place du Cirque, le bar dispose d'une terrasse assez grande et d'un intérieur plus simpl",
+         "ig_link":"https://www.instagram.com/p/Dfw5lrEDToQ/?hl=fr&img_index=1",
+         "photos":[
+            "photos/Monroe.webp"
+         ],
+         "isPépite":false,
+         "types": ["flechettes"]
+      }
+      {
          "id":25,
          "name":"Coco Bandit",
          "lat":47.2138914781245,
