@@ -1572,6 +1572,20 @@
          ],
          "isPépite":false
       },
+       {
+         "id":45,
+         "name":"Les Sir Carmes",
+         "lat":47.216227219717474, 
+         "lng":-1.5553194969265391,
+         "rating":"C",
+         "color":"#f4c280",
+         "pdlmc_price":"6€",
+         "description":"On vous présente aujourd’hui un petit bar bien sympa de la rue des Carmes, dans le quartier Bouffay, bienvenue au Sir Carmes ! Le bar profite de l’ambiance festive",
+         "photos":[
+            "photos/Sircarmes.webp"
+         ],
+         "isPépite":false
+      },
       {
          "id":99,
          "name":"Le Royal Café",
