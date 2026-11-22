@@ -1852,6 +1852,22 @@
          "types": ["jeux"]
       },
       {
+         "id":41,
+         "name":"Le Pion Commun",
+         "lat":47.21963409096994,
+         "lng":--1.5590155318159662,
+         "rating":"A",
+         "color":"#306629",
+         "pdlmc_price":"6,50€",
+         "description":"Le Pion Commun, c’est un très grand bar à jeu situé dans la rue Jamin, un quartier vivant avec de nombreux commerces ! 🤗 Le lieu te permet de prendre ve",
+         "ig_link":"https://www.instagram.com/p/DgDQHnoDfRI/?hl=fr&img_index=1",
+         "photos":[
+            "photos/Pioncommun.webp"
+         ],
+         "isPépite":false,
+         "types": ["jeux"]
+      },
+      {
          "id":117,
          "name":"Little Atlantique Brewery",
          "lat":47.19630789091908,
